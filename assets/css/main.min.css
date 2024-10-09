@@ -14564,6 +14564,7 @@ body.show-menu .mob-btn span + span + span {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  z-index: -1;
 }
 .banner::before {
   position: absolute;

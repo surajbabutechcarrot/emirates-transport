@@ -17,8 +17,7 @@ include('../../includes/header-ar.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 m-auto text-center">
-                    <h2 class="fw-bold text-center text-uppercase ttl-40 text-black">Your Gateway To Efficient Transport
-                        Solutions</h2>
+                    <h2 class="fw-bold text-center text-uppercase ttl-40 text-black">بوابتك إلى حلول النقل الفعّالة</h2>
                 </div>
                 <div class="box-bg row">
                     <div class="col-lg-6 pe-md-0 pe-lg-5 d-flex align-items-center">
@@ -26,17 +25,9 @@ include('../../includes/header-ar.php');
                     </div>
                     <article class="col-lg-6 pt-md-5 pt-lg-0 pt-5 d-flex align-items-center">
                         <div class="text">
-                            <h2 class="ttl-40 fw-bold py-3 text-uppercase">Emirates General Transport and Services
-                                Company</h2>
-                            <p>Emirates Transport is a leading name in the transportation sector, with a legacy that
-                                spans over four decades. Since its inception, it has evolved into a multifaceted
-                                organization offering a diverse range of services. The company's extensive fleet
-                                includes a significant number of school buses, reflecting its dedication to safe and
-                                reliable student transportation. With a skilled workforce and a wide network of
-                                facilities across the UAE, Emirates Transport is committed to delivering exceptional
-                                service. Joining the Emirates Investment Authority has further strengthened its impact
-                                on the nation's economy.</p>
-                            <a href="" class="btn btn-primary py-3 px-4 mt-3">Explore Our Services</a>
+                            <h2 class="ttl-40 fw-bold py-3 text-uppercase">شركة الإمارات للنقل العام والخدمات</h2>
+                            <p>تُعتبر شركة الإمارات للنقل، اسمًا رائدًا في قطاع النقل، حيث تمتد إرثها لأكثر من أربعة عقود. منذ تأسيسها، تطورت لتصبح منظمة متعددة الجوانب تقدم مجموعة متنوعة من الخدمات. يشمل أسطول الشركة عددًا كبيرًا من الحافلات المدرسية، مما يعكس التزامها بتوفير النقل الآمن والموثوق للطلاب. بفضل قوة عاملة ماهرة وشبكة واسعة من المرافق في جميع أنحاء الإمارات، تلتزم شركة الإمارات للنقل بتقديم خدمة استثنائية. وقد ساهم انضمامها إلى الهيئة الاتحادية للاستثمار في تعزيز تأثيرها على اقتصاد الدولة.</p>
+                            <a href="" class="btn btn-primary py-3 px-4 mt-3">استكشف خدماتنا</a>
                         </div>
                     </article>
                 </div>
@@ -48,8 +39,7 @@ include('../../includes/header-ar.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="ttl-40 fw-bold py-3 text-uppercase">We take pride in being the leading transportation
-                        provider in the UAE</h2>
+                    <h2 class="ttl-40 fw-bold py-3 text-uppercase">نفخر بكوننا المزود الرائد لخدمات النقل في الإمارات</h2>
                 </div>
                 <div class="col-lg-3 col-sm-6 row align-items-center py-4">
                     <div class="col-3">
@@ -57,7 +47,7 @@ include('../../includes/header-ar.php');
                     </div>
                     <div class="col-9">
                         <h1 class="fw-bold text-black ttl-60 mb-0">43</h1>
-                        <p class="text-black">Years</p>
+                        <p class="text-black">عام</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 row align-items-center py-4">
@@ -66,7 +56,7 @@ include('../../includes/header-ar.php');
                     </div>
                     <div class="col-9">
                         <h1 class="fw-bold text-black ttl-60 mb-0">28,629</h1>
-                        <p class="text-black">Total Employees</p>
+                        <p class="text-black">مجموع الموظين</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 row align-items-center py-4">
@@ -75,7 +65,7 @@ include('../../includes/header-ar.php');
                     </div>
                     <div class="col-9">
                         <h1 class="fw-bold text-black ttl-60 mb-0">35+</h1>
-                        <p class="text-black">Various Services</p>
+                        <p class="text-black">خدمات متنوعة</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 row align-items-center py-4">
@@ -84,7 +74,7 @@ include('../../includes/header-ar.php');
                     </div>
                     <div class="col-9">
                         <h1 class="fw-bold text-black ttl-60 mb-0">13,153</h1>
-                        <p class="text-black">Cars</p>
+                        <p class="text-black">سيارة</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 row align-items-center py-4">
@@ -93,7 +83,7 @@ include('../../includes/header-ar.php');
                     </div>
                     <div class="col-9">
                         <h1 class="fw-bold text-black ttl-60 mb-0">823</h1>
-                        <p class="text-black">Clients</p>
+                        <p class="text-black">العملاء</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 row align-items-center py-4">
@@ -102,7 +92,7 @@ include('../../includes/header-ar.php');
                     </div>
                     <div class="col-9">
                         <h1 class="fw-bold text-black ttl-60 mb-0">4</h1>
-                        <p class="text-black">Sectors</p>
+                        <p class="text-black">القطاعات</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 row align-items-center py-4">
@@ -111,7 +101,7 @@ include('../../includes/header-ar.php');
                     </div>
                     <div class="col-9">
                         <h1 class="fw-bold text-black ttl-60 mb-0">12,111</h1>
-                        <p class="text-black">Buses</p>
+                        <p class="text-black">حافلة</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 row align-items-center py-4">
@@ -120,7 +110,7 @@ include('../../includes/header-ar.php');
                     </div>
                     <div class="col-9">
                         <h1 class="fw-bold text-black ttl-60 mb-0">17,182</h1>
-                        <p class="text-black">Drivers</p>
+                        <p class="text-black">سائق</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 row align-items-center py-4">
@@ -129,7 +119,7 @@ include('../../includes/header-ar.php');
                     </div>
                     <div class="col-9">
                         <h1 class="fw-bold text-black ttl-60 mb-0">32,861</h1>
-                        <p class="text-black">Total Fleet</p>
+                        <p class="text-black">إجمالي الأسطول</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 row align-items-center py-4">
@@ -138,7 +128,7 @@ include('../../includes/header-ar.php');
                     </div>
                     <div class="col-9">
                         <h1 class="fw-bold text-black ttl-60 mb-0">28,629</h1>
-                        <p class="text-black">Revenue</p>
+                        <p class="text-black">الإيرادات</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 row align-items-center py-4">
@@ -147,7 +137,7 @@ include('../../includes/header-ar.php');
                     </div>
                     <div class="col-9">
                         <h1 class="fw-bold text-black ttl-60 mb-0">2,418</h1>
-                        <p class="text-black">Emirates</p>
+                        <p class="text-black">إماراتي</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 row align-items-center py-4">
@@ -156,7 +146,7 @@ include('../../includes/header-ar.php');
                     </div>
                     <div class="col-9">
                         <h1 class="fw-bold text-black ttl-60 mb-0">2,371</h1>
-                        <p class="text-black">Technical Staff</p>
+                        <p class="text-black">الطاقم الفني</p>
                     </div>
                 </div>
             </div>
@@ -168,16 +158,13 @@ include('../../includes/header-ar.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="ttl-40 fw-bold text-center">Vision & mission</h2>
+                    <h2 class="ttl-40 fw-bold text-center">الرؤية والرسالة</h2>
                     <div class="mission-slider w-100">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div class="text m-auto">
-                                    <h4 class="fw-bold text-primary">Operational Efficiency</h4>
-                                    <p class="mb-0">Through optimized processes and resource management, Emirates
-                                        Transport ensures
-                                        smooth and cost-effective operations, enhancing productivity and customer
-                                        satisfaction across all sectors.</p>
+                                    <h4 class="fw-bold text-primary">التكنولوجيا والابتكار</h4>
+                                    <p class="mb-0">من خلال الاستفادة من التكنولوجيا المتطورة، تدمج شركة الإمارات للنقل حلولًا مبتكرة لتعزيز العمليات التشغيلية، وتبسيط الخدمات، وتقديم حلول نقل متقدمة لمواجهة التحديات الحديثة.</p>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -187,11 +174,8 @@ include('../../includes/header-ar.php');
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div class="text m-auto">
-                                    <h4 class="fw-bold text-primary">Operational Efficiency</h4>
-                                    <p class="mb-0">Through optimized processes and resource management, Emirates
-                                        Transport ensures
-                                        smooth and cost-effective operations, enhancing productivity and customer
-                                        satisfaction across all sectors.</p>
+                                    <h4 class="fw-bold text-primary">الكفاءة التشغيلية</h4>
+                                    <p class="mb-0">من خلال تحسين العمليات وإدارة الموارد، تضمن شركة الإمارات للنقل سير العمليات بسلاسة وبتكلفة فعالة، مما يعزز الإنتاجية ورضا العملاء عبر جميع القطاعات.</p>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -201,11 +185,21 @@ include('../../includes/header-ar.php');
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div class="text m-auto">
-                                    <h4 class="fw-bold text-primary">Operational Efficiency</h4>
-                                    <p class="mb-0">Through optimized processes and resource management, Emirates
-                                        Transport ensures
-                                        smooth and cost-effective operations, enhancing productivity and customer
-                                        satisfaction across all sectors.</p>
+                                    <h4 class="fw-bold text-primary">الاستدامة والأسطول الأخضر
+                                    </h4>
+                                    <p class="mb-0">تضع شركة الإمارات للنقل الحلول الصديقة للبيئة في مقدمة أولوياتها، مع التركيز على تقليل الأثر البيئي من خلال مبادرة الأسطول الأخضر التي تعزز استخدام المركبات الكهربائية والمركبات ذات الانبعاثات المنخفضة من أجل النقل المستدام.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="<?php echo $path; ?>assets/images/mission-1.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-7 d-flex align-items-center">
+                                <div class="text m-auto">
+                                    <h4 class="fw-bold text-primary">السلامة والأمان
+                                    </h4>
+                                    <p class="mb-0">مع التأكيد على أعلى معايير السلامة والأمان، تلتزم شركة الإمارات للنقل بحماية الركاب والموظفين والأصول، مما يضمن الموثوقية وراحة البال في كل رحلة.</p>
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -223,32 +217,32 @@ include('../../includes/header-ar.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Honoring Excellence in Service and Innovation</p>
-                    <h4 class="fw-bold text-uppercase ttl-40 pb-4">Discover our services & brands</h4>
+                    <p>تكريم التميز في الخدمة والابتكار</p>
+                    <h4 class="fw-bold text-uppercase ttl-40 pb-4">اكتشف خدماتنا وعلاماتنا التجارية</h4>
                 </div>
                 <div class="col-lg-3 col-sm-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-1.svg">
                     </div>
-                    <h5 class="text-center pt-3">Al Wataneya Auction</h5>
+                    <h5 class="text-center pt-3">الوطنية للمزادات</h5>
                 </div>
                 <div class="col-lg-3 col-sm-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-2.svg">
                     </div>
-                    <h5 class="text-center pt-3">Emirates Moto</h5>
+                    <h5 class="text-center pt-3">إماريتس موتو</h5>
                 </div>
                 <div class="col-lg-3 col-sm-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-2.svg">
                     </div>
-                    <h5 class="text-center pt-3">Emirates Moto Profix</h5>
+                    <h5 class="text-center pt-3">إماريتس موتو بروفيكس</h5>
                 </div>
                 <div class="col-lg-3 col-sm-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-4.svg">
                     </div>
-                    <h5 class="text-center pt-3">Emirates Car Wash</h5>
+                    <h5 class="text-center pt-3">غسيل سيارات الإمارات</h5>
                 </div>
                 <div class="col-lg-3 col-sm-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
@@ -266,13 +260,13 @@ include('../../includes/header-ar.php');
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-7.png">
                     </div>
-                    <h5 class="text-center pt-3">ABU DHABI AIRPORT TAXI</h5>
+                    <h5 class="text-center pt-3">تاكسي مطار أبوظبي</h5>
                 </div>
                 <div class="col-lg-3 col-sm-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-8.svg">
                     </div>
-                    <h5 class="text-center pt-3">EMIRATES TRANSPORT TAXI</h5>
+                    <h5 class="text-center pt-3">أجرة مواصلات الإمارات</h5>
                 </div>
             </div>
         </div>

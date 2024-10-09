@@ -21,13 +21,13 @@ include('../../includes/header-ar.php');
                 </div>
                 <div class="box-bg row">
                     <div class="col-lg-6 ps-md-0 ps-lg-5 d-flex align-items-center">
-                        <img class="w-100" src="<?php echo $path; ?>assets/images/about-aside.png" alt="About Us Image">
+                        <img class="w-100" src="<?php echo $path; ?>assets/images/about.png" alt="About Us Image">
                     </div>
                     <article class="col-lg-6 pt-md-5 pt-lg-0 pt-5 d-flex align-items-center">
                         <div class="text">
-                            <h2 class="ttl-40 fw-bold py-3 text-uppercase">شركة الإمارات للنقل العام والخدمات</h2>
+                            <h2 class="fw-bold py-3 text-uppercase">شركة الإمارات للنقل العام والخدمات</h2>
                             <p>تُعتبر شركة الإمارات للنقل، اسمًا رائدًا في قطاع النقل، حيث تمتد إرثها لأكثر من أربعة عقود. منذ تأسيسها، تطورت لتصبح منظمة متعددة الجوانب تقدم مجموعة متنوعة من الخدمات. يشمل أسطول الشركة عددًا كبيرًا من الحافلات المدرسية، مما يعكس التزامها بتوفير النقل الآمن والموثوق للطلاب. بفضل قوة عاملة ماهرة وشبكة واسعة من المرافق في جميع أنحاء الإمارات، تلتزم شركة الإمارات للنقل بتقديم خدمة استثنائية. وقد ساهم انضمامها إلى الهيئة الاتحادية للاستثمار في تعزيز تأثيرها على اقتصاد الدولة.</p>
-                            <a href="" class="btn btn-primary py-3 px-4 mt-3">استكشف خدماتنا</a>
+                            <!-- <a href="" class="btn btn-primary py-3 px-4 mt-3">استكشف خدماتنا</a> -->
                         </div>
                     </article>
                 </div>

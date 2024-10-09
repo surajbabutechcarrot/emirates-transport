@@ -23,11 +23,11 @@ include('../includes/header.php');
                 </div>
                 <div class="box-bg row">
                     <div class="col-lg-6 pe-md-0 pe-lg-5 d-flex align-items-center">
-                        <img class="w-100" src="<?php echo $path; ?>assets/images/about-aside.png" alt="About Us Image">
+                        <img class="w-100" src="<?php echo $path; ?>assets/images/about.png" alt="About Us Image">
                     </div>
                     <article class="col-lg-6 pt-md-5 pt-lg-0 pt-5 d-flex align-items-center">
                         <div class="text">
-                            <h2 class="ttl-40 fw-bold py-3 text-uppercase">Emirates General Transport and Services
+                            <h2 class="fw-bold py-3 text-uppercase">Emirates General Transport and Services
                                 Company</h2>
                             <p>Emirates Transport is a leading name in the transportation sector, with a legacy that
                                 spans over four decades. Since its inception, it has evolved into a multifaceted
@@ -37,7 +37,7 @@ include('../includes/header.php');
                                 facilities across the UAE, Emirates Transport is committed to delivering exceptional
                                 service. Joining the Emirates Investment Authority has further strengthened its impact
                                 on the nation's economy.</p>
-                            <a href="" class="btn btn-primary py-3 px-4 mt-3">Explore Our Services</a>
+                            <!-- <a href="" class="btn btn-primary py-3 px-4 mt-3">Explore Our Services</a> -->
                         </div>
                     </article>
                 </div>
@@ -400,19 +400,19 @@ include('../includes/header.php');
     </section>
      <!-- Awwards section end -->
     <!-- Slider section start -->
-    <section class="app-slider std-space">
+    <section class="app-slider std-space pt-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="w-100 slider-app">
                         <div class="row">
                             <div class="col-lg-7">
-                                <img src="<?php echo $path; ?>assets/images/mobile-app.png" alt="">
+                                <img src="assets/images/mobile-app.png" alt="">
                             </div>
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
                                     <h4>ET APPs</h4>
-                                    <h1>Hafilaty</h1>
+                                    <h1 class="fw-bold text-uppercase text-primary">Hafilaty</h1>
                                     <p>Emirates Transport, in collaboration with the Emirates Schools Establishment,
                                         launched a smart app in early 2023 for parents of public-school students. </p>
                                     <a href="" class="btn btn-primary mt-3"><svg id="Layer_2"
@@ -456,12 +456,12 @@ include('../includes/header.php');
                         </div>
                         <div class="row">
                             <div class="col-lg-7">
-                                <img src="<?php echo $path; ?>assets/images/mobile-app.png" alt="">
+                                <img src="assets/images/mobile-app.png" alt="">
                             </div>
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
                                     <h4>ET APPs</h4>
-                                    <h1>Hafilaty</h1>
+                                    <h1 class="fw-bold text-uppercase text-primary">Hafilaty</h1>
                                     <p>Emirates Transport, in collaboration with the Emirates Schools Establishment,
                                         launched a smart app in early 2023 for parents of public-school students. </p>
                                     <a href="" class="btn btn-primary mt-3"><svg id="Layer_2"
@@ -505,12 +505,12 @@ include('../includes/header.php');
                         </div>
                         <div class="row">
                             <div class="col-lg-7">
-                                <img src="<?php echo $path; ?>assets/images/mobile-app.png" alt="">
+                                <img src="assets/images/mobile-app.png" alt="">
                             </div>
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
                                     <h4>ET APPs</h4>
-                                    <h1>Hafilaty</h1>
+                                    <h1 class="fw-bold text-uppercase text-primary">Hafilaty</h1>
                                     <p>Emirates Transport, in collaboration with the Emirates Schools Establishment,
                                         launched a smart app in early 2023 for parents of public-school students. </p>
                                     <a href="" class="btn btn-primary mt-3"><svg id="Layer_2"

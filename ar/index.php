@@ -296,7 +296,7 @@ include('../includes/header-ar.php');
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
                                     <h4>تطبيقات ET</h4>
-                                    <h1>حافالتي</h1>
+                                    <h1 class="text-primary fw-bold">حافالتي</h1>
                                     <p>مواصلات الإمارات، بالتعاون مع مؤسسة مدارس الإمارات،
                                         أطلقت تطبيقًا ذكيًا مطلع عام 2023 لأولياء أمور طلاب المدارس الحكومية.
                                     </p>
@@ -346,7 +346,7 @@ include('../includes/header-ar.php');
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
                                     <h4>تطبيقات ET</h4>
-                                    <h1>حافالتي</h1>
+                                    <h1 class="text-primary fw-bold">حافالتي</h1>
                                     <p>مواصلات الإمارات، بالتعاون مع مؤسسة مدارس الإمارات،
                                         أطلقت تطبيقًا ذكيًا مطلع عام 2023 لأولياء أمور طلاب المدارس الحكومية.
                                     </p>
@@ -396,7 +396,7 @@ include('../includes/header-ar.php');
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
                                     <h4>تطبيقات ET</h4>
-                                    <h1>حافالتي</h1>
+                                    <h1 class="text-primary fw-bold">حافالتي</h1>
                                     <p>مواصلات الإمارات، بالتعاون مع مؤسسة مدارس الإمارات،
                                         أطلقت تطبيقًا ذكيًا مطلع عام 2023 لأولياء أمور طلاب المدارس الحكومية.
                                     </p>

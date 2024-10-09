@@ -80,7 +80,10 @@
                     position: relative;
                     color: #626366;
                     font-weight: 600;
-                    
+                    transition : all 0.4s;
+                    &:hover{
+                        color: $black;
+                    }
                 }
                 &:hover {
                     >a {

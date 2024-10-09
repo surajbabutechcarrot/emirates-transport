@@ -233,7 +233,7 @@
         font-size: size(20);
     }
 }
-.mission-slider{
+.mission-slider, .mission-slider-ar{
     .slick-slide{
         display: flex;
         .text{

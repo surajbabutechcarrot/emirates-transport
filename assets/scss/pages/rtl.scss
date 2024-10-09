@@ -23,6 +23,9 @@ html[lang="ar"] {
         li{
             margin: 0 15px;
             display: inline-block;
+            button{
+                display: none;
+            }
         }
     }
 }

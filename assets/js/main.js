@@ -92,6 +92,15 @@ $(document).ready(function () {
         slidesToShow: 5, // Number of items to show at once
         slidesToScroll: 1,
     });
+    $('.awards-slider-ar').slick({
+        dots: true,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        slidesToShow: 5, // Number of items to show at once
+        slidesToScroll: 1,
+        rtl: true,
+    });
     
 });
 jQuery(document).ready(function ($) {

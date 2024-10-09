@@ -5,6 +5,11 @@ include('includes/header.php');
 <main class="home-page">
     <!-- Banner section start -->
     <section class="banner">
+        <video width="" height="" poster="assets/images/banner1.png" autoplay muted loop>
+            <source src="assets/images/banner.mp4" type="video/mp4">
+            </source>
+
+        </video>
         <div class="container h-100">
             <div class="row h-100">
                 <article class="col-lg-12 h-100 d-flex align-items-center justify-content-center">
@@ -13,9 +18,9 @@ include('includes/header.php');
                         <div class="story">
                             <div class="content m-auto">
                                 <h6>Welcome to Emirates Transport</h6>
-                                <h1 class="mb-5">We are your journey</h1>
-                                <a class="play mt-5" data-toggle="modal" data-target=".bd-example-modal-lg" href=""> <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 63.46 63.46">
+                                <h1 class="mb-5 text-uppercase">We are your journey</h1>
+                                <a class="play mt-5" data-toggle="modal" data-target=".bd-example-modal-lg" href="">
+                                    <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63.46 63.46">
                                         <defs>
                                             <style>
                                                 .cls-1 {
@@ -91,6 +96,9 @@ include('includes/header.php');
                                 <img class="icon mb-4" src="assets/images/school-transport.svg">
                                 <h4 class="fw-bold mb-0">School
                                     Transportation</h4>
+                                <a href="#" class="text-end pt-3 d-block ms-auto me-0">
+                                    <img src="assets/images/right-arrow.svg">
+                                </a>
                             </div>
                         </div>
                         <div class="right">
@@ -153,7 +161,7 @@ include('includes/header.php');
             <div class="row">
                 <div class="col-lg-12 text-center text-white">
                     <p>Discover Our Empowering Journeys</p>
-                    <h3 class="fw-bold">Our Fleet in Numbers</h3>
+                    <h3 class="fw-bold text-uppercase">Our Fleet in Numbers</h3>
                 </div>
                 <div class="col text-white text-center py-5">
                     <h2 class="fw-bold">14,000+</h2>
@@ -262,7 +270,7 @@ include('includes/header.php');
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
                                     <h4>ET APPs</h4>
-                                    <h1>Hafilaty</h1>
+                                    <h1 class="fw-bold text-uppercase text-primary">Hafilaty</h1>
                                     <p>Emirates Transport, in collaboration with the Emirates Schools Establishment,
                                         launched a smart app in early 2023 for parents of public-school students. </p>
                                     <a href="" class="btn btn-primary mt-3"><svg id="Layer_2"
@@ -311,7 +319,7 @@ include('includes/header.php');
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
                                     <h4>ET APPs</h4>
-                                    <h1>Hafilaty</h1>
+                                    <h1 class="fw-bold text-uppercase text-primary">Hafilaty</h1>
                                     <p>Emirates Transport, in collaboration with the Emirates Schools Establishment,
                                         launched a smart app in early 2023 for parents of public-school students. </p>
                                     <a href="" class="btn btn-primary mt-3"><svg id="Layer_2"
@@ -360,7 +368,7 @@ include('includes/header.php');
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
                                     <h4>ET APPs</h4>
-                                    <h1>Hafilaty</h1>
+                                    <h1 class="fw-bold text-uppercase text-primary">Hafilaty</h1>
                                     <p>Emirates Transport, in collaboration with the Emirates Schools Establishment,
                                         launched a smart app in early 2023 for parents of public-school students. </p>
                                     <a href="" class="btn btn-primary mt-3"><svg id="Layer_2"
@@ -414,7 +422,7 @@ $path = "root";
 include('includes/footer.php');
 ?>
 <!-- pagescript here... -->
-<div class="modal video-modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+<!-- <div class="modal video-modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-header">
@@ -426,12 +434,11 @@ include('includes/footer.php');
             <video width="" height="" autoplay muted loop>
                 <source src="assets/images/banner.mp4" type="video/mp4">
                 </source>
-                <!-- <source src="movie.ogg" type="video/ogg"> -->
-                Your browser does not support the video tag.
+                
             </video>
         </div>
     </div>
-</div>
+</div> -->
 <script></script>
 <!-- End pagescript here... -->
 </body>

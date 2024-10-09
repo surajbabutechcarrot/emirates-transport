@@ -5,6 +5,11 @@ include('../includes/header-ar.php');
 <main class="home-page">
     <!-- Banner section start -->
     <section class="banner">
+        <video width="" height="" autoplay muted loop>
+            <source src="<?php echo $path; ?>assets/images/banner.mp4" type="video/mp4">
+            </source>
+
+        </video>
         <div class="container h-100">
             <div class="row h-100">
                 <article class="col-lg-12 h-100 d-flex align-items-center justify-content-center">
@@ -14,7 +19,8 @@ include('../includes/header-ar.php');
                             <div class="content m-auto">
                                 <h6>مرحباً بكم في مواصلات الإمارات</h6>
                                 <h1 class="mb-5">نحن رحلتك</h1>
-                                <a class="play mt-5" href="" data-toggle="modal" data-target=".bd-example-modal-lg" href=""> <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg"
+                                <a class="play mt-5" href="" data-toggle="modal" data-target=".bd-example-modal-lg"
+                                    href=""> <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 63.46 63.46">
                                         <defs>
                                             <style>
@@ -123,7 +129,8 @@ include('../includes/header-ar.php');
                     <div class="w-100 box my-3">
                         <div class="left p-4 d-flex align-items-center">
                             <div class="text">
-                                <img class="icon mb-4" src="<?php echo $path; ?>assets/images/transport-and-leasing.svg">
+                                <img class="icon mb-4"
+                                    src="<?php echo $path; ?>assets/images/transport-and-leasing.svg">
                                 <h4 class="fw-bold mb-0">ينقل
                                     والتأجير
                                 </h4>
@@ -156,8 +163,8 @@ include('../includes/header-ar.php');
         </div>
     </section>
     <!-- Service section end -->
-     <!-- Fleet numbers section start -->
-     <section class="std-space feet">
+    <!-- Fleet numbers section start -->
+    <section class="std-space feet">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center text-white">
@@ -188,14 +195,14 @@ include('../includes/header-ar.php');
                 </div>
             </div>
         </div>
-     </section>
+    </section>
     <!-- Fleet numbers section end -->
     <!-- News section start -->
     <section class="std-space news">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h6></h6>
+                    <h6>اكتشف رحلاتنا التمكينية</h6>
                     <h2 class="ttl-40 fw-bold py-3 text-uppercase pb-3">اكتشف رحلاتنا التمكينية
                     </h2>
                 </div>
@@ -277,11 +284,11 @@ include('../includes/header-ar.php');
     </section>
     <!-- News section start -->
     <!-- Slider section start -->
-    <section class="app-slider">
+    <section class="app-slider std-space pt-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="w-100 slider-app-ar">
+                    <div class="w-100 slider-app-ar  ">
                         <div class="row">
                             <div class="col-lg-7">
                                 <img src="<?php echo $path; ?>assets/images/mobile-app.png" alt="">
@@ -381,7 +388,8 @@ include('../includes/header-ar.php');
                                         </svg></a>
                                 </div>
                             </div>
-                        </div><div class="row">
+                        </div>
+                        <div class="row">
                             <div class="col-lg-7">
                                 <img src="<?php echo $path; ?>assets/images/mobile-app.png" alt="">
                             </div>
@@ -443,7 +451,7 @@ $path = "root";
 include('../includes/footer-ar.php');
 ?>
 <!-- pagescript here... -->
-<div class="modal video-modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+<!-- <div class="modal video-modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-header">
@@ -455,12 +463,11 @@ include('../includes/footer-ar.php');
             <video width="" height="" autoplay muted loop>
                 <source src="<?php echo $path; ?>assets/images/banner.mp4" type="video/mp4">
                 </source>
-                <!-- <source src="movie.ogg" type="video/ogg"> -->
-                Your browser does not support the video tag.
+               
             </video>
         </div>
     </div>
-</div>
+</div> -->
 <script></script>
 <!-- End pagescript here... -->
 </body>

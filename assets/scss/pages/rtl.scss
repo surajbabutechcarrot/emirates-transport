@@ -8,4 +8,21 @@ html[lang="ar"] {
             }
         }
     }
+    .slick-dots{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: inline-block;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 40px auto 40px auto;
+        text-align: center;
+        li{
+            margin: 0 15px;
+            display: inline-block;
+        }
+    }
 }

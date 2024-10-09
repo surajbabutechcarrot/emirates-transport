@@ -171,13 +171,16 @@ $filter-z:99;
   border-bottom: 1px solid #8b8b8b;
   border-radius:0; 
 }
-.mission-slider{
+.mission-slider, .mission-slider-ar{
   background: #EEEEF0;
   border-radius: size(20);
   margin: 40px 0 0 0;
 }
 .light-bg{
   background: #EEEEF0;
+}
+.white-bg{
+  background: $white;
 }
 .z-index-2{
   z-index: 2;
@@ -219,4 +222,13 @@ $filter-z:99;
           }
       }
   }
+}
+.slick-dots{
+  list-style: none;
+  li{
+    list-style: none!important;
+  }
+}
+.slider-app .slick-dots, .slider-app-ar .slick-dots{
+  list-style: none!important;
 }

@@ -92,7 +92,7 @@ include('includes/header.php');
                 <div class="col-lg-6">
                     <div class="w-100 box my-3">
                         <div class="left p-4 d-flex align-items-center">
-                            <div class="text">
+                            <div class="text w-100">
                                 <img class="icon mb-4" src="assets/images/school-transport.svg">
                                 <h4 class="fw-bold mb-0">School
                                     Transportation</h4>
@@ -109,11 +109,14 @@ include('includes/header.php');
                 <div class="col-lg-6">
                     <div class="w-100 box my-3">
                         <div class="left p-4 d-flex align-items-center">
-                            <div class="text">
+                            <div class="text w-100">
                                 <img class="icon mb-4" src="assets/images/maintanance.svg">
                                 <h4 class="fw-bold mb-0">Maintenance,
                                     Repair &
                                     Operations</h4>
+                                <a href="#" class="text-end pt-3 d-block ms-auto me-0">
+                                    <img src="assets/images/right-arrow.svg">
+                                </a>
                             </div>
                         </div>
                         <div class="right">
@@ -124,10 +127,13 @@ include('includes/header.php');
                 <div class="col-lg-6">
                     <div class="w-100 box my-3">
                         <div class="left p-4 d-flex align-items-center">
-                            <div class="text">
+                            <div class="text w-100">
                                 <img class="icon mb-4" src="assets/images/transport-and-leasing.svg">
                                 <h4 class="fw-bold mb-0">Transport
                                     and Leasing</h4>
+                                <a href="#" class="text-end pt-3 d-block ms-auto me-0">
+                                    <img src="assets/images/right-arrow.svg">
+                                </a>
                             </div>
                         </div>
                         <div class="right">
@@ -138,9 +144,12 @@ include('includes/header.php');
                 <div class="col-lg-6">
                     <div class="w-100 box my-3">
                         <div class="left p-4 d-flex align-items-center">
-                            <div class="text">
+                            <div class="text w-100">
                                 <img class="icon mb-4" src="assets/images/ventures.svg">
                                 <h4 class="fw-bold mb-0">New Ventures</h4>
+                                <a href="<?php echo $path; ?>/new-ventures" class="text-end pt-3 d-block ms-auto me-0">
+                                    <img src="assets/images/right-arrow.svg">
+                                </a>
                             </div>
                         </div>
                         <div class="right">

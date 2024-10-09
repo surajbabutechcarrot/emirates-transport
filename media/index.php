@@ -7,9 +7,9 @@ include('../includes/header.php');
     <!-- Media banner start -->
      <section class="light-bg std-space">
         <div class="container">
-            <div class="row w-100 radius-20 white-bg">
-                <div class="col-lg-5">
-
+            <div class="row w-100 rounded-20 white-bg overflow-hidden">
+                <div class="col-lg-5 position-relative">
+                    <img class="media-main-img" src="<?php echo $path; ?>assets/images/media-left.png">
                 </div>
                 <div class="col-lg-7 white-bg d-flex align-items-center">
                     <div class="text P-5">

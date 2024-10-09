@@ -232,3 +232,14 @@ $filter-z:99;
 .slider-app .slick-dots, .slider-app-ar .slick-dots{
   list-style: none!important;
 }
+.media-main-img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rounded-20{
+  border-radius: size(20);
+}

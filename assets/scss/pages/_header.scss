@@ -1,0 +1,52 @@
+.main-header {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    height: size(100);
+    background: $white;
+    z-index: 1049;
+    @include max(1199.98){
+        height: size(80);
+    }
+    .logo{
+        width: 100%;
+        max-width: size(200);
+        @include max(1199.98){
+            max-width: size(160);
+        }
+    }
+    &.slim-header{
+        -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.05);
+        box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.05);
+        position: fixed;
+        @include min(1199.98){
+            -webkit-animation: menu-anim 1s ease-in-out 1 forwards;
+            animation: menu-anim 1s ease-in-out 1 forwards;
+        }
+    }
+}
+@keyframes menu-anim {
+    0% {
+        transform: translateY(0)
+    }
+
+    35%,50% {
+        transform: translateY(-100%)
+    }
+
+    to {
+        transform: translateY(-86px)
+    }
+}
+
+@keyframes menu-anim {
+    0% {
+        transform: translateY(-86px)
+    }
+
+    to {
+        transform: translateY(0)
+    }
+}

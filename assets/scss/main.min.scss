@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+// bootstrap
+@import 'bootstrap/bootstrap';
+// Helpers
+@import 'mixins/mixins';
+@import 'pages/style-guide';
+@import 'base/reset';
+
+
+
+// Components
+@import 'components/headings';
+// @import 'components/font-kit';
+@import 'components/buttons';
+@import 'components/navigation';
+// @import 'components/plugins';
+
+
+// Pages
+@import 'pages/header';
+@import 'pages/home';
+// @import 'pages/inner-pages';
+@import 'pages/footer';
+@font-face {
+    font-family: Bahij_TheSansArabic-Plain;
+    src: url(../fonts/Bahij_TheSansArabic-Plain.ttf);
+  }
+  @font-face {
+    font-family: Bahij_TheSansArabic-Bold;
+    src: url(../fonts/Bahij_TheSansArabic-Bold.ttf);
+  }
+  html[lang=ar] h1,
+  html[lang=ar] h2,
+  html[lang=ar] h3,
+  html[lang=ar] h4,
+  html[lang=ar] h5,
+  html[lang=ar] h6{
+    font-family: Bahij_TheSansArabic-Bold;
+  }
+  html[lang=ar] p,
+  html[lang=ar] a,
+  html[lang=ar] li{
+    font-family: Bahij_TheSansArabic-Plain;
+  }
+  html[lang=ar] a.btn{
+    font-family: Bahij_TheSansArabic-Plain !important
+  }

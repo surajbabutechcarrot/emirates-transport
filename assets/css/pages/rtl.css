@@ -1,0 +1,10 @@
+html[lang=ar] {
+  direction: rtl;
+  text-align: right;
+}
+html[lang=ar] .main-nav li:last-child {
+  padding-left: 0;
+}
+html[lang=ar] input {
+  font-family: Bahij_TheSansArabic-Plain;
+}

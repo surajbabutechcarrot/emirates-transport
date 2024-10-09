@@ -1,0 +1,47 @@
+.footer{
+    background: $light-bg;
+    padding: 40px 0;
+    position: relative;
+    min-height: size(100);
+    @include max(991.98){
+        text-align: center;
+    }
+    hr{
+        border-top:1px solid #b8b9be;
+    }
+    .logo{
+        max-width: size(230);
+        margin: 0 auto;
+    }
+    ul{
+        margin: 0 0 0 auto;
+        text-align: right;
+        list-style: none;
+        padding: 0;
+        justify-content: flex-end;
+        @include max(991.98){
+            margin: 0 auto;
+            text-align: center;
+        }
+<<<<<<< HEAD
+        li{
+            margin: 0 10px;
+            &:last-child{
+                margin-right: 0;
+            }
+            svg{
+                width: size(25);
+                height: size(25);
+                transition:all 1s;
+                path{
+                    fill: #325294;
+                }
+                &:hover{
+                    opacity: 0.5;
+                }
+            }
+        }
+=======
+>>>>>>> parent of 81f2ae1 (latest)
+    }
+}

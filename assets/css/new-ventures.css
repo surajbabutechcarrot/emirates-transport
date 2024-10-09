@@ -1,0 +1,28 @@
+/* new-ventures.php css */
+
+.venture-start {
+    background: #1f665b;
+    color: #fff;
+}
+
+.venture-start .btn {
+    color: #fff;
+    border-color: #fff;
+}
+.venture-start .btn:hover {
+    background-color: #fff;
+    color: #1f665b;
+}
+.ev-charge-section h2{
+    color: #1f665b;
+}
+.ev-charge-section p{
+    text-align: justify;
+}
+.ev-welcome-section h2,
+.ev-welcome-section h3{
+    color: #1f665b;
+}
+.ev-welcome-section img {
+    border-radius: 20px;
+}

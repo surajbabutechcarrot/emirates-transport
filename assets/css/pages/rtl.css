@@ -5,6 +5,3 @@ html[lang=ar] {
 html[lang=ar] .main-nav li:last-child {
   padding-left: 0;
 }
-html[lang=ar] input {
-  font-family: Bahij_TheSansArabic-Plain;
-}

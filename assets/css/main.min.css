@@ -14893,6 +14893,14 @@ body.show-menu .mob-btn span + span + span {
   overflow: hidden;
 }
 
+html[lang=ar] {
+  direction: rtl;
+  text-align: right;
+}
+html[lang=ar] .main-nav li:last-child {
+  padding-left: 0;
+}
+
 .footer {
   background: #ecedf1;
   padding: 40px 0;
@@ -14976,3 +14984,4 @@ html[lang=ar] li {
 html[lang=ar] a.btn {
   font-family: Bahij_TheSansArabic-Plain !important;
 }
+/*# sourceMappingURL=main.min.css.map */

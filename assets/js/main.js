@@ -103,3 +103,27 @@ jQuery(document).ready(function ($) {
         }
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    function setEqualTabHeights() {
+        var maxHeight = 0;
+        var tabPanes = document.querySelectorAll('.tab-pane');
+
+        // Find the maximum height
+        tabPanes.forEach(function (pane) {
+            pane.style.height = 'auto'; // Reset height
+            if (pane.scrollHeight > maxHeight) {
+                maxHeight = pane.scrollHeight;
+            }
+        });
+
+        // Set all tab panes to the maximum height
+        tabPanes.forEach(function (pane) {
+            pane.style.height = maxHeight + 'px';
+        });
+    }
+
+    setEqualTabHeights(); // Set equal heights on page load
+
+    // Adjust on tab change and window resize
+    window.addEventListener('resize', setEqualTabHeights);
+});

@@ -281,7 +281,7 @@ include('../includes/header-ar.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="w-100 slider-app-ar  ">
+                    <div class="w-100 slider-app-ar">
                         <div class="row">
                             <div class="col-lg-7">
                                 <img src="<?php echo $path; ?>assets/images/mobile-app.png" alt="">

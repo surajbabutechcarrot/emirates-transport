@@ -20,45 +20,54 @@ include('../../includes/header-ar.php');
                     <h2 class="fw-bold text-center text-uppercase ttl-60 text-primary">هل تريد معرفة المزيد؟
                     </h2>
                 </div>
+
+                <form action="./" method="post">
                 <div class="box-bg row">
                     <div class="col-lg-6">
                         <div class="mb-3 mt-5">
-                            <input type="text" class="form-control" id="exampleFormControlInput1"
-                                placeholder="الاسم الأول*">
+                            <input name="first_name" type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="الاسم الأول*" required>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="mb-3 mt-5">
-                            <input type="text" class="form-control" id="exampleFormControlInput1"
-                                placeholder="اسم العائلة*">
+                            <input name="last_name" type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="اسم العائلة*" required>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="mb-3 mt-5">
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="البريد الإلكتروني الخاص بك">
+                            <input name="email" type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="البريد الإلكتروني الخاص بك" required>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="mb-3 mt-5">
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="موضوع">
+                            <input name="subject" type="text" class="form-control" id="exampleFormControlInput1" placeholder="موضوع" required>
                         </div>
                     </div>
                     <div class="col-lg-12">
                         <div class="mb-3 mt-5">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
-                                placeholder="رسالتك"></textarea>
+                            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="4"
+                                placeholder="رسالتك" required></textarea>
                         </div>
                     </div>
                     <div class="col-lg-12 text-center">
                         <div class="mb-3 mt-5">
-                            <button type="button" class="btn btn-primary py-3 px-4 mt-3">يُقدِّم</button>
+                            <input type="submit" name="submit" class="btn btn-primary py-3 px-4 mt-3" value="يُقدِّم">
                         </div>
                     </div>
+                </div>
+                </form>
+                <?php include_once('../phpmail.php'); ?>
+
+                
+                <div class="box-bg row">
+                    
                     <div class="col-lg-4 pt-5 d-flex align-items-center">
 
 
-                        <svg class="icon ms-4" id="Layer_2" xmlns="http://www.w3.org/2000/svg"
+                        <svg class="icon me-4" id="Layer_2" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 57.69 57.67">
                             <defs>
                                 <style>
@@ -92,7 +101,7 @@ include('../../includes/header-ar.php');
 
 
 
-                        <svg class="icon ms-4" id="Layer_2" xmlns="http://www.w3.org/2000/svg"
+                        <svg class="icon me-4" id="Layer_2" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 60.63 60.63">
                             <defs>
                                 <style>
@@ -117,7 +126,7 @@ include('../../includes/header-ar.php');
                     <div class="col-lg-4 pt-5 d-flex align-items-center">
 
 
-                        <svg class="icon ms-4" width="150" height="150" id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.85 60.4">
+                        <svg class="icon me-4" width="150" height="150" id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.85 60.4">
                             <defs>
                                 <style>
                                     .cls-1 {

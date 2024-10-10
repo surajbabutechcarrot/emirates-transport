@@ -15408,6 +15408,13 @@ html[lang=ar] footer li:last-child {
   margin-right: 10px;
   margin-left: 0;
 }
+html[lang=ar] .main-nav > ul > li ul li {
+  padding-right: 3.25rem;
+}
+html[lang=ar] .main-nav > ul > li ul li:after {
+  right: 1.5625rem;
+  left: inherit;
+}
 
 .footer {
   background: #ecedf1;

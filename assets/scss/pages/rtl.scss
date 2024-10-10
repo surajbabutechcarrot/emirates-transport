@@ -43,4 +43,11 @@ html[lang="ar"] {
             }
         }
     }
+    .main-nav > ul > li ul li{
+        padding-right: size(52);
+    }
+    .main-nav > ul > li ul li:after{
+        right: size(25);
+        left: inherit;
+    }
 }

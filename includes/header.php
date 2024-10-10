@@ -31,8 +31,8 @@
                         <li><a href="<?php echo $path; ?>about/">About Us</a></li>
                         <li class="submenu"><a href="<?php echo $path; ?>services/">Services</a>
                         <ul>
-                            <li><a href="<?php echo $path; ?>maintanance/">Maintanance</a></li>
-                            <li><a href="<?php echo $path; ?>../new-ventures/">New Ventures</a></li>
+                            <li><a href="<?php echo $path; ?>maintanance/">Maintenance</a></li>
+                            <li><a href="<?php echo $path; ?>new-ventures/">New Ventures</a></li>
                         </ul>
                     </li>
                         <li><a href="<?php echo $path; ?>media/">Media</a></li>

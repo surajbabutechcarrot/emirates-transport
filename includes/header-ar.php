@@ -32,7 +32,7 @@
                         <li class="submenu"><a href="<?php echo $path; ?>services/ar/">خدمات</a>
                         <ul>
                             <li><a href="<?php echo $path; ?>maintanance/ar/">صيانة</a></li>
-                            <li><a href="<?php echo $path; ?>../new-ventures/ar/">مشاريع جديدة</a></li>
+                            <li><a href="<?php echo $path; ?>new-ventures/ar/">مشاريع جديدة</a></li>
                         </ul>
                     </li>
                         <li><a href="<?php echo $path; ?>media/ar/">وسائط</a></li>

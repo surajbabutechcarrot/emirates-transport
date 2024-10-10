@@ -113,7 +113,7 @@
             $homeURL_ar = str_replace("/ar/", "/", $homeURL);
             ?>
             var homeURL = "<?php echo $homeURL_ar; ?>";
-            jQuery('nav.main-nav li:last-child a').attr('href', homeURL);
+            jQuery('nav.main-nav > ul > li:last-child a').attr('href', homeURL);
         });
 
     </script>

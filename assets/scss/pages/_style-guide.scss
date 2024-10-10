@@ -160,6 +160,18 @@ $filter-z:99;
     font-size: size(40);
   }
 }
+.ttl-40{
+  font-size: size(40);
+  @include max(1199.98){
+    font-size: size(32);
+  }
+}
+.ttl-30{
+  font-size: size(30);
+  @include max(1199.98){
+    font-size: size(24);
+  }
+}
 .text-primary{
   color: $primary-color!important;
 }
@@ -241,6 +253,10 @@ $filter-z:99;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  @include max(991.98){
+    position: relative;
+    margin-top: size(15);
+  }
 }
 .rounded-20{
   border-radius: size(20);

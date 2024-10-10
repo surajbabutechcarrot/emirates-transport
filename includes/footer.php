@@ -108,12 +108,10 @@
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script>
         jQuery(document).ready(function () {
-    <?php
-    $homeURL = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . 'ar/';
-    ?>
-    var homeURL = "<?php echo $homeURL; ?>";
-    jQuery('nav.main-nav li:last-child a').attr('href', homeURL);
-});
+            <?php $homeURL = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . 'ar/';?>
+            var homeURL = "<?php echo $homeURL; ?>";
+            jQuery('nav.main-nav > ul > li:last-child a').attr('href', homeURL);
+        });
 
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

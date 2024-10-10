@@ -234,7 +234,7 @@ include('../../includes/header-ar.php');
                 </div>
                 <div class="col-lg-3 col-sm-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
-                        <img src="<?php echo $path; ?>assets/images/discover-2.svg">
+                        <img src="<?php echo $path; ?>../assets/images/profix.png">
                     </div>
                     <h5 class="text-center pt-3">إماريتس موتو بروفيكس</h5>
                 </div>
@@ -292,22 +292,22 @@ include('../../includes/header-ar.php');
                     <h2 class="fw-bold text-black text-uppercase">تعرف على فريق القيادة لدينا</h2>
                 </div>
                 <div class="w-100 mt-5 d-flex box p-0">
-                    <div class="col-7 d-flex align-items-center">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-7 col d-flex align-items-center">
                         <div class="text w-100 p-5">
                             <h3 class="fw-bold text-primary text-uppercase">بيتر يورغنسن</h3>
                             <h5>الرئيس المالي التنفيذي</h5>
                             <p>يلعب دورًا حيويًا في الإشراف على الرؤية المالية والتوجه الاستراتيجي للشركة. يتحمل مسؤولية إدارة المشاريع الكبرى وتقييم تأثيرها المالي على المنظمة. يقود بيتر أيضًا جهود الابتكار في الصناعة، مما يضمن أن تظل الإمارات للنقل في المقدمة في قطاعها، مع المساهمة في تطوير المجتمع والنمو الاقتصادي. كما يعزز ثقافة مؤسسية قوية تركز على القيم الجوهرية والنزاهة. تسهم خبرته أيضًا في دفع خطط النمو المستقبلية للشركة، مما يضعها في موقع يمكنها من تحقيق النجاح والاستدامة على المدى الطويل في السوق.</p>
                         </div>
                     </div>
-                    <div class="col-5 pe-0">
+                    <div class="col-lg-5 col-md-12 pe-0">
                         <img src="<?php echo $path; ?>assets/images/team-1.png">
                     </div>
                 </div>
                 <div class="w-100 mt-5 d-flex box p-0">
-                    <div class="col-5 pe-0">
+                    <div class="col-lg-5 col-md-12 pe-0">
                         <img src="<?php echo $path; ?>assets/images/team-2.png">
                     </div>
-                    <div class="col-7 d-flex align-items-center">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-7 col d-flex align-items-center">
                         <div class="text w-100 p-5">
                             <h3 class="fw-bold text-primary text-uppercase">فاريال توكل
                             </h3>
@@ -332,46 +332,89 @@ include('../../includes/header-ar.php');
                 </div>
                 <div class="col-lg-12">
                     <div class="awards-slider-ar pt-5 w-100">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="box p-5 bg-white rounded-4 w-100">
-                                    <img src="<?php echo $path; ?>assets/images/awards-1.png">
-                                </div>
+                    <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-1.png">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-4">
-                                <div class="box p-5 bg-white rounded-4 w-100">
-                                    <img src="<?php echo $path; ?>assets/images/awards-1.png">
-                                </div>
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-2.png">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-4">
-                                <div class="box p-5 bg-white rounded-4 w-100">
-                                    <img src="<?php echo $path; ?>assets/images/awards-1.png">
-                                </div>
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-3.png">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-4">
-                                <div class="box p-5 bg-white rounded-4 w-100">
-                                    <img src="<?php echo $path; ?>assets/images/awards-1.png">
-                                </div>
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-4.png">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-4">
-                                <div class="box p-5 bg-white rounded-4 w-100">
-                                    <img src="<?php echo $path; ?>assets/images/awards-1.png">
-                                </div>
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-5.png">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-4">
-                                <div class="box p-5 bg-white rounded-4 w-100">
-                                    <img src="<?php echo $path; ?>assets/images/awards-1.png">
-                                </div>
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-6.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-7.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-8.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-9.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-10.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-11.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-12.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-13.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-14.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-15.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-16.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-17.png">
                             </div>
                         </div>
                     </div>

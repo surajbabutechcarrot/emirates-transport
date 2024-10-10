@@ -52,7 +52,7 @@ include('../includes/header.php');
                     <h2 class="ttl-40 fw-bold py-3 text-uppercase">We take pride in being the leading transportation
                         provider in the UAE</h2>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-1.svg">
                     </div>
@@ -61,7 +61,7 @@ include('../includes/header.php');
                         <p class="text-black">Years</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-2.svg">
                     </div>
@@ -70,7 +70,7 @@ include('../includes/header.php');
                         <p class="text-black">Total Employees</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-3.svg">
                     </div>
@@ -79,7 +79,7 @@ include('../includes/header.php');
                         <p class="text-black">Various Services</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-4.svg">
                     </div>
@@ -88,7 +88,7 @@ include('../includes/header.php');
                         <p class="text-black">Cars</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-5.svg">
                     </div>
@@ -97,7 +97,7 @@ include('../includes/header.php');
                         <p class="text-black">Clients</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-6.svg">
                     </div>
@@ -106,7 +106,7 @@ include('../includes/header.php');
                         <p class="text-black">Sectors</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-7.svg">
                     </div>
@@ -115,7 +115,7 @@ include('../includes/header.php');
                         <p class="text-black">Buses</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-8.svg">
                     </div>
@@ -124,7 +124,7 @@ include('../includes/header.php');
                         <p class="text-black">Drivers</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-9.svg">
                     </div>
@@ -133,7 +133,7 @@ include('../includes/header.php');
                         <p class="text-black">Total Fleet</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-10.svg">
                     </div>
@@ -142,7 +142,7 @@ include('../includes/header.php');
                         <p class="text-black">Revenue</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-11.svg">
                     </div>
@@ -151,7 +151,7 @@ include('../includes/header.php');
                         <p class="text-black">Emirates</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-12.svg">
                     </div>
@@ -201,7 +201,8 @@ include('../includes/header.php');
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div class="text m-auto">
-                                    <h4 class="fw-bold text-primary">Sustainability & Green Fleet</h4>
+                                    <h4 class="fw-bold text-primary">Sustainability & Green Fleet
+                                    </h4>
                                     <p class="mb-0">Emirates Transport prioritizes eco-friendly solutions, focusing on
                                         reducing environmental impact through a green fleet initiative that promotes
                                         electric and low-emission vehicles for sustainable transport.</p>
@@ -252,7 +253,7 @@ include('../includes/header.php');
                 </div>
                 <div class="col-lg-3 col-sm-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
-                        <img src="<?php echo $path; ?>assets/images/discover-2.svg">
+                        <img src="<?php echo $path; ?>assets/images/profix.png">
                     </div>
                     <h5 class="text-center pt-3">Emirates Moto Profix</h5>
                 </div>
@@ -363,45 +364,88 @@ include('../includes/header.php');
                 <div class="col-lg-12">
                     <div class="awards-slider pt-5 w-100">
                         <div class="row">
-                            <div class="col-lg-4">
-                                <div class="box p-5 bg-white rounded-4 w-100">
-                                    <img src="<?php echo $path; ?>assets/images/awards-1.png">
-                                </div>
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-1.png">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-4">
-                                <div class="box p-5 bg-white rounded-4 w-100">
-                                    <img src="<?php echo $path; ?>assets/images/awards-1.png">
-                                </div>
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-2.png">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-4">
-                                <div class="box p-5 bg-white rounded-4 w-100">
-                                    <img src="<?php echo $path; ?>assets/images/awards-1.png">
-                                </div>
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-3.png">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-4">
-                                <div class="box p-5 bg-white rounded-4 w-100">
-                                    <img src="<?php echo $path; ?>assets/images/awards-1.png">
-                                </div>
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-4.png">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-4">
-                                <div class="box p-5 bg-white rounded-4 w-100">
-                                    <img src="<?php echo $path; ?>assets/images/awards-1.png">
-                                </div>
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-5.png">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-4">
-                                <div class="box p-5 bg-white rounded-4 w-100">
-                                    <img src="<?php echo $path; ?>assets/images/awards-1.png">
-                                </div>
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-6.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-7.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-8.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-9.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-10.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-11.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-12.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-13.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-14.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-15.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-16.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="box bg-white rounded-4 w-100">
+                                <img src="<?php echo $path; ?>assets/images/award-17.png">
                             </div>
                         </div>
                     </div>

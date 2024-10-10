@@ -45,7 +45,7 @@ include('../includes/header.php');
                             <h5 class="fw-bold">No children 'forgotten on buses': How UAE transport firm is ramping up
                                 student safety
                             </h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ include('../includes/header.php');
                             <h6>Jul 13, 2024 | News</h6>
                             <h5 class="fw-bold">UAE's Ministry of Energy and Infrastructure, Emirates Transport to
                                 support green mobility</h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ include('../includes/header.php');
                             <h5 class="fw-bold">Ministry of Energy and Infrastructure, Emirates Transport to support
                                 green mobility
                             </h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ include('../includes/header.php');
                             <h5 class="fw-bold">UAE schools brace for Monday traffic as police plan to send out extra
                                 patrol units
                             </h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ include('../includes/header.php');
                             <h5 class="fw-bold">Ministry of Energy and Infrastructure, Emirates Transport to support
                                 green mobility
                             </h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@ include('../includes/header.php');
                             <h6>Jul 13, 2024 | News</h6>
                             <h5 class="fw-bold">UAE schools brace for Monday traffic as police plan to send out extra
                                 patrol units</h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@ include('../includes/header.php');
                             <h5 class="fw-bold">Ministry of Energy and Infrastructure, Emirates Transport to support
                                 green mobility
                             </h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@ include('../includes/header.php');
                             <h5 class="fw-bold">UAE schools brace for Monday traffic as police plan to send out extra
                                 patrol units
                             </h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
                         </div>
                     </div>
                 </div>

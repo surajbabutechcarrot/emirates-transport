@@ -191,6 +191,7 @@
         }
     }
 }
+
 .feet{
     background: url('../images/feet.png') no-repeat center center;
     .col{
@@ -255,6 +256,12 @@
     }
     p{
         font-size: size(20);
+    }
+    h1{
+        font-size: size(36);
+        @include max(1199.98){
+            font-size: size(26);
+        }
     }
 }
 .mission-slider, .mission-slider-ar{
@@ -359,6 +366,13 @@
         overflow: hidden;
         @include max(991.98){
             display: block!important;
+        }
+        img{
+            @include max(991.98){
+                max-width: calc(100% - 60px);
+                margin: 30px auto;
+                display: block;
+            }
         }
     }
 }

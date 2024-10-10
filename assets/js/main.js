@@ -84,6 +84,13 @@ $(document).ready(function () {
         autoplaySpeed: 1000,
         // rtl: true  // Enable RTL mode
     });
+    $('.mission-slider-ar').slick({
+        dots: true,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        rtl: true  // Enable RTL mode
+    });
     $('.awards-slider').slick({
         dots: true,
         arrows: false,
@@ -91,6 +98,32 @@ $(document).ready(function () {
         autoplaySpeed: 1000,
         slidesToShow: 5, // Number of items to show at once
         slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1200, // For large screens
+                settings: {
+                    slidesToShow: 4, // Show 4 slides on large screens
+                }
+            },
+            {
+                breakpoint: 992, // For medium screens
+                settings: {
+                    slidesToShow: 3, // Show 3 slides on medium screens
+                }
+            },
+            {
+                breakpoint: 768, // For tablets
+                settings: {
+                    slidesToShow: 2, // Show 2 slides on tablets
+                }
+            },
+            {
+                breakpoint: 576, // For mobile devices
+                settings: {
+                    slidesToShow: 1, // Show 1 slide on mobile devices
+                }
+            }
+        ]
     });
     $('.awards-slider-ar').slick({
         dots: true,
@@ -100,6 +133,32 @@ $(document).ready(function () {
         slidesToShow: 5, // Number of items to show at once
         slidesToScroll: 1,
         rtl: true,
+        responsive: [
+            {
+                breakpoint: 1200, // For large screens
+                settings: {
+                    slidesToShow: 4, // Show 4 slides on large screens
+                }
+            },
+            {
+                breakpoint: 992, // For medium screens
+                settings: {
+                    slidesToShow: 3, // Show 3 slides on medium screens
+                }
+            },
+            {
+                breakpoint: 768, // For tablets
+                settings: {
+                    slidesToShow: 2, // Show 2 slides on tablets
+                }
+            },
+            {
+                breakpoint: 576, // For mobile devices
+                settings: {
+                    slidesToShow: 1, // Show 1 slide on mobile devices
+                }
+            }
+        ]
     });
     
 });

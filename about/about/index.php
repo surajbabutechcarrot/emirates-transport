@@ -2,7 +2,6 @@
 $page_title = "About";
 include('../includes/header.php');
 ?>
-<?php include('includes/header.php');?>
 <main class="inner-page">
     <!-- Banner start -->
     <section class="inner-banner contact pt-0 d-flex align-items-center">
@@ -221,63 +220,46 @@ include('../includes/header.php');
     <!-- Vision and mission section end -->
     <!-- Discover sections start -->
     <section class="std-space light-bg discover">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>Honoring Excellence in Service and Innovation</p>
-                    <h4 class="fw-bold text-uppercase ttl-40 pb-4">Discover our services & brands</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p>Honoring Excellence in Service and Innovation</p>
+                <h4 class="fw-bold text-uppercase ttl-40 pb-4">Discover our services & brands</h4>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-4">
+                <div class="box p-5 bg-white rounded-4 w-100">
+                    <img src="<?php echo $path; ?>assets/images/discover-1.svg" alt="Al Wataneya Auction">
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
-                    <div class="box p-5 bg-white rounded-4 w-100">
-                        <img src="<?php echo $path; ?>assets/images/discover-1.svg">
-                    </div>
-                    <h5 class="text-center pt-3">Al Wataneya Auction</h5>
+                <h5 class="text-center pt-3">Al Wataneya Auction</h5>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-4">
+                <div class="box p-5 bg-white rounded-4 w-100">
+                    <img src="<?php echo $path; ?>assets/images/discover-2.svg" alt="Emirates Moto">
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
-                    <div class="box p-5 bg-white rounded-4 w-100">
-                        <img src="<?php echo $path; ?>assets/images/discover-2.svg">
-                    </div>
-                    <h5 class="text-center pt-3">Emirates Moto</h5>
+                <h5 class="text-center pt-3">Emirates Moto</h5>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-4">
+                <div class="box p-5 bg-white rounded-4 w-100">
+                    <img src="<?php echo $path; ?>assets/images/discover-2.svg" alt="Emirates Moto Profix">
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
-                    <div class="box p-5 bg-white rounded-4 w-100">
-                        <img src="<?php echo $path; ?>assets/images/discover-2.svg">
-                    </div>
-                    <h5 class="text-center pt-3">Emirates Moto Profix</h5>
+                <h5 class="text-center pt-3">Emirates Moto Profix</h5>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-4">
+                <div class="box p-5 bg-white rounded-4 w-100">
+                    <img src="<?php echo $path; ?>assets/images/discover-4.svg" alt="Emirates Car Wash">
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
-                    <div class="box p-5 bg-white rounded-4 w-100">
-                        <img src="<?php echo $path; ?>assets/images/discover-4.svg">
-                    </div>
-                    <h5 class="text-center pt-3">Emirates Car Wash</h5>
+                <h5 class="text-center pt-3">Emirates Car Wash</h5>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-4">
+                <div class="box p-5 bg-white rounded-4 w-100">
+                    <img src="<?php echo $path; ?>assets/images/discover-5.svg" alt="ETDI">
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
-                    <div class="box p-5 bg-white rounded-4 w-100">
-                        <img src="<?php echo $path; ?>assets/images/discover-5.svg">
-                    </div>
-                    <h5 class="text-center pt-3">ETDI</h5>
-                </div>
-                <div class="col-lg-3 col-sm-6 my-4">
-                    <div class="box p-5 bg-white rounded-4 w-100">
-                        <img src="<?php echo $path; ?>assets/images/discover-6.svg">
-                    </div>
-                    <h5 class="text-center pt-3">Musada</h5>
-                </div>
-                <div class="col-lg-3 col-sm-6 my-4">
-                    <div class="box p-5 bg-white rounded-4 w-100">
-                        <img src="<?php echo $path; ?>assets/images/discover-7.png">
-                    </div>
-                    <h5 class="text-center pt-3">ABU DHABI AIRPORT TAXI</h5>
-                </div>
-                <div class="col-lg-3 col-sm-6 my-4">
-                    <div class="box p-5 bg-white rounded-4 w-100">
-                        <img src="<?php echo $path; ?>assets/images/discover-8.svg">
-                    </div>
-                    <h5 class="text-center pt-3">EMIRATES TRANSPORT TAXI</h5>
-                </div>
+                <h5 class="text-center pt-3">ETDI</h5> <!-- Added the heading here -->
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
     <!-- Discover sections end -->
     <!-- Commitment section start -->
     <section class="std-space commitment">
@@ -285,7 +267,8 @@ include('../includes/header.php');
             <div class="row">
                 <div class="col-lg-12 text-center py-5 z-index-2">
                     <p class="text-white">Our Commitment to Excellence</p>
-                    <h4 class="text-white ttl-40 fw-bold">Empowering Our Brands Through Visionary Leadership</h4>
+                    <h4 class="text-white ttl-40 fw-bold">Empowering Our Brands Through Visionary
+                        Leadership</h4>
                 </div>
             </div>
         </div>
@@ -303,13 +286,20 @@ include('../includes/header.php');
                         <div class="text w-100 p-5">
                             <h3 class="fw-bold text-primary text-uppercase">Peter Jøergensen</h3>
                             <h5>Chief Financial Officer</h5>
-                            <p>Plays a pivotal role in overseeing the company’s financial vision and strategic
-                                direction. He is responsible for managing major projects and assessing their financial
-                                impact on the organization. Peter also leads efforts in industry innovation, ensuring
-                                the Emirates Transport stays ahead in its sector while contributing to community
-                                development and economic growth. He also fosters a strong corporate culture centered on
-                                core values and integrity. Peter’s expertise also drives the company’s future growth
-                                plans, positioning it for long-term success and sustainability in the market.
+                            <p>Plays a pivotal role in overseeing the company’s financial vision and
+                                strategic
+                                direction. He is responsible for managing major projects and
+                                assessing their financial
+                                impact on the organization. Peter also leads efforts in industry
+                                innovation, ensuring
+                                the Emirates Transport stays ahead in its sector while contributing
+                                to community
+                                development and economic growth. He also fosters a strong corporate
+                                culture centered on
+                                core values and integrity. Peter’s expertise also drives the
+                                company’s future growth
+                                plans, positioning it for long-term success and sustainability in
+                                the market.
                             </p>
                         </div>
                     </div>
@@ -325,13 +315,20 @@ include('../includes/header.php');
                         <div class="text w-100 p-5">
                             <h3 class="fw-bold text-primary text-uppercase">Faryal Tawakul</h3>
                             <h5>Deputy Chief Executive Officer</h5>
-                            <p>A key figure in transforming the UAE's transportation sector. With over 20 years of
-                                experience, she leads groundbreaking innovations and sustainability initiatives. Her
-                                focus on green transportation, such as implementing EV charging infrastructure, aligns
-                                with the UAE's environmental goals. Faryal is also a great example for women in
-                                leadership, serving as an inspiring role model in a male-dominated industry. Under her
-                                leadership, Emirates Transport has forged strategic partnerships and embraced
-                                cutting-edge, sustainable solutions, positioning the company as a regional leader in
+                            <p>A key figure in transforming the UAE's transportation sector. With
+                                over 20 years of
+                                experience, she leads groundbreaking innovations and sustainability
+                                initiatives. Her
+                                focus on green transportation, such as implementing EV charging
+                                infrastructure, aligns
+                                with the UAE's environmental goals. Faryal is also a great example
+                                for women in
+                                leadership, serving as an inspiring role model in a male-dominated
+                                industry. Under her
+                                leadership, Emirates Transport has forged strategic partnerships and
+                                embraced
+                                cutting-edge, sustainable solutions, positioning the company as a
+                                regional leader in
                                 transportation.
 
                             </p>
@@ -342,7 +339,7 @@ include('../includes/header.php');
         </div>
     </section>
     <!-- Meet our team section end -->
-     <!-- Awwards section start -->
+    <!-- Awwards section start -->
     <section class="std-space light-bg">
         <div class="container">
             <div class="row">
@@ -398,7 +395,7 @@ include('../includes/header.php');
             </div>
         </div>
     </section>
-     <!-- Awwards section end -->
+    <!-- Awwards section end -->
     <!-- Slider section start -->
     <section class="app-slider std-space">
         <div class="container">
@@ -413,8 +410,10 @@ include('../includes/header.php');
                                 <div class="text">
                                     <h4>ET APPs</h4>
                                     <h1 class="fw-bold text-uppercase text-primary">Hafilaty</h1>
-                                    <p>Emirates Transport, in collaboration with the Emirates Schools Establishment,
-                                        launched a smart app in early 2023 for parents of public-school students. </p>
+                                    <p>Emirates Transport, in collaboration with the Emirates
+                                        Schools Establishment,
+                                        launched a smart app in early 2023 for parents of
+                                        public-school students. </p>
                                     <a href="" class="btn btn-primary mt-3"><svg id="Layer_2"
                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.78 24.3">
                                             <defs>
@@ -462,8 +461,10 @@ include('../includes/header.php');
                                 <div class="text">
                                     <h4>ET APPs</h4>
                                     <h1 class="fw-bold text-uppercase text-primary">Hafilaty</h1>
-                                    <p>Emirates Transport, in collaboration with the Emirates Schools Establishment,
-                                        launched a smart app in early 2023 for parents of public-school students. </p>
+                                    <p>Emirates Transport, in collaboration with the Emirates
+                                        Schools Establishment,
+                                        launched a smart app in early 2023 for parents of
+                                        public-school students. </p>
                                     <a href="" class="btn btn-primary mt-3"><svg id="Layer_2"
                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.78 24.3">
                                             <defs>
@@ -511,8 +512,10 @@ include('../includes/header.php');
                                 <div class="text">
                                     <h4>ET APPs</h4>
                                     <h1 class="fw-bold text-uppercase text-primary">Hafilaty</h1>
-                                    <p>Emirates Transport, in collaboration with the Emirates Schools Establishment,
-                                        launched a smart app in early 2023 for parents of public-school students. </p>
+                                    <p>Emirates Transport, in collaboration with the Emirates
+                                        Schools Establishment,
+                                        launched a smart app in early 2023 for parents of
+                                        public-school students. </p>
                                     <a href="" class="btn btn-primary mt-3"><svg id="Layer_2"
                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.78 24.3">
                                             <defs>

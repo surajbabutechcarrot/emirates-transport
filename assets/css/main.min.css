@@ -13609,7 +13609,8 @@ textarea.form-control-lg {
   border-radius: 0;
 }
 
-.mission-slider .slick-list, .mission-slider-ar .slick-list {
+.mission-slider .slick-list,
+.mission-slider-ar .slick-list {
   background: #EEEEF0;
   border-radius: 1.25rem;
   margin: 40px 0 0 0;
@@ -13673,7 +13674,8 @@ textarea.form-control-lg {
   list-style: none !important;
 }
 
-.slider-app .slick-dots, .slider-app-ar .slick-dots {
+.slider-app .slick-dots,
+.slider-app-ar .slick-dots {
   list-style: none !important;
 }
 
@@ -13731,6 +13733,77 @@ textarea.form-control-lg {
 .pagination li a {
   color: #000;
   border: none;
+}
+
+.awards-slider .slick-slide,
+.awards-slider-ar .slick-slide {
+  margin: 0 15px;
+}
+.awards-slider .slick-slide .box,
+.awards-slider-ar .slick-slide .box {
+  padding: 0.9375rem;
+  margin: 0.9375rem;
+}
+.awards-slider .slick-slide .box img,
+.awards-slider-ar .slick-slide .box img {
+  width: 100%;
+}
+.awards-slider .slick-dots,
+.awards-slider-ar .slick-dots {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 40px 0 0 0;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+}
+.awards-slider .slick-dots li,
+.awards-slider-ar .slick-dots li {
+  list-style: none;
+  margin: 0 10px;
+}
+.awards-slider .slick-dots li:first-child,
+.awards-slider-ar .slick-dots li:first-child {
+  margin-left: auto;
+}
+.awards-slider .slick-dots li:last-child,
+.awards-slider-ar .slick-dots li:last-child {
+  margin-right: auto;
+}
+.awards-slider .slick-dots li::marker,
+.awards-slider-ar .slick-dots li::marker {
+  display: none;
+}
+.awards-slider .slick-dots li button,
+.awards-slider-ar .slick-dots li button {
+  display: none;
+}
+.awards-slider .slick-dots li::before,
+.awards-slider-ar .slick-dots li::before {
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  content: "";
+  background: #EEEEF0;
+  position: absolute;
+}
+.awards-slider .slick-dots li.slick-active::before,
+.awards-slider-ar .slick-dots li.slick-active::before {
+  background: #006051;
+}
+
+@media (max-width: 991.98px) {
+  .box-bg h2, .box-bg .h2 {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .box-bg .icon {
+    max-width: 2.5rem;
+  }
 }
 
 /*  ===============
@@ -15212,6 +15285,14 @@ body.show-menu .mob-btn span + span + span {
 .pride-info p {
   font-size: 1.25rem;
 }
+.pride-info h1, .pride-info .h1 {
+  font-size: 2.25rem;
+}
+@media (max-width: 1199.98px) {
+  .pride-info h1, .pride-info .h1 {
+    font-size: 1.625rem;
+  }
+}
 
 .mission-slider .slick-slide, .mission-slider-ar .slick-slide {
   display: -webkit-box;
@@ -15329,6 +15410,13 @@ body.show-menu .mob-btn span + span + span {
 @media (max-width: 991.98px) {
   .team .box {
     display: block !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .team .box img {
+    max-width: calc(100% - 60px);
+    margin: 30px auto;
+    display: block;
   }
 }
 

@@ -39,7 +39,7 @@ include('../../includes/header-ar.php');
                             <h6>الخميس 29 أغسطس 2024 | الأخبار</h6>
                             <h5 class="fw-bold">لا يُنسى الأطفال على الحافلات: كيف تعمل شركة النقل الإماراتية على تعزيز سلامة الطلاب
                             </h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ include('../../includes/header-ar.php');
                         <div class="right">
                             <h6>13 يوليو 2024 | الأخبار</h6>
                             <h5 class="fw-bold">وزارة الطاقة والبنية التحتية الإماراتية والإمارات للنقل لدعم التنقل الأخضر</h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ include('../../includes/header-ar.php');
                             <h6>26 أبريل 2024 | الأخبار</h6>
                             <h5 class="fw-bold">وزارة الطاقة والبنية التحتية، والإمارات للنقل لدعم التنقل الأخضر
                             </h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ include('../../includes/header-ar.php');
                             <h6>25 أغسطس 2024 | الأخبار</h6>
                             <h5 class="fw-bold">مدارس الإمارات تستعد لزحام يوم الاثنين مع خطط الشرطة لإرسال وحدات دورية إضافية
                             </h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ include('../../includes/header-ar.php');
                             <h6>26 أبريل 2024 | الأخبار</h6>
                             <h5 class="fw-bold">وزارة الطاقة والبنية التحتية، مواصلات الإمارات لدعم التنقل الأخضر
                             </h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ include('../../includes/header-ar.php');
                         <div class="right">
                             <h6>25 أغسطس 2024 | الأخبار</h6>
                             <h5 class="fw-bold">تستعد المدارس في الإمارات لازدحام المرور يوم الاثنين، حيث تخطط الشرطة لنشر وحدات دورية إضافية.</h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ include('../../includes/header-ar.php');
                             <h6>26 أبريل 2024 | الأخبار</h6>
                             <h5 class="fw-bold">وزارة الطاقة والبنية التحتية ومواصلات الإمارات تدعمان التنقل الأخضر.
                             </h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
                         </div>
                     </div>
                 </div>
@@ -128,7 +128,7 @@ include('../../includes/header-ar.php');
                             <h6>25 أغسطس 2024 | الأخبار</h6>
                             <h5 class="fw-bold">تستعد المدارس في الإمارات لازدحام المرور يوم الاثنين، حيث تخطط الشرطة لإرسال وحدات دورية إضافية.
                             </h5>
-                            <a href="<?php echo $path; ?>media-details.php" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
+                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
                         </div>
                     </div>
                 </div>

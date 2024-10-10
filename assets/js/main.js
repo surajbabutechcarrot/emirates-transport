@@ -120,7 +120,7 @@ $(document).ready(function () {
             {
                 breakpoint: 576, // For mobile devices
                 settings: {
-                    slidesToShow: 1, // Show 1 slide on mobile devices
+                    slidesToShow: 1.7, // Show 1 slide on mobile devices
                 }
             }
         ]
@@ -155,7 +155,7 @@ $(document).ready(function () {
             {
                 breakpoint: 576, // For mobile devices
                 settings: {
-                    slidesToShow: 1, // Show 1 slide on mobile devices
+                    slidesToShow: 1.7, // Show 1 slide on mobile devices
                 }
             }
         ]

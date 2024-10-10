@@ -361,6 +361,9 @@
     background: #EEEEF0;
     .bus-img{
         margin-left: size(-80);
+        @include max(991.98){
+            margin-left: size(0);
+        }
     }
 }
 .journey{

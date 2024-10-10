@@ -15327,6 +15327,11 @@ body.show-menu .mob-btn span + span + span {
 .we-care .bus-img {
   margin-left: -5rem;
 }
+@media (max-width: 991.98px) {
+  .we-care .bus-img {
+    margin-left: 0rem;
+  }
+}
 
 .journey {
   height: 28.125rem;

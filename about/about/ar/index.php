@@ -179,7 +179,7 @@ include('../../includes/header-ar.php');
                                 </div>
                             </div>
                             <div class="col-lg-5">
-                                <img src="<?php echo $path; ?>assets/images/mission-2.png">
+                                <img src="<?php echo $path; ?>assets/images/mission-1.png">
                             </div>
                         </div>
                         <div class="row">
@@ -191,7 +191,7 @@ include('../../includes/header-ar.php');
                                 </div>
                             </div>
                             <div class="col-lg-5">
-                                <img src="<?php echo $path; ?>assets/images/mission-3.png">
+                                <img src="<?php echo $path; ?>assets/images/mission-1.png">
                             </div>
                         </div>
                         <div class="row">
@@ -203,7 +203,7 @@ include('../../includes/header-ar.php');
                                 </div>
                             </div>
                             <div class="col-lg-5">
-                                <img src="<?php echo $path; ?>assets/images/mission-4.png">
+                                <img src="<?php echo $path; ?>assets/images/mission-1.png">
                             </div>
                         </div>
                     </div>

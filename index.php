@@ -96,7 +96,7 @@ include('includes/header.php');
                                 <img class="icon mb-4" src="assets/images/school-transport.svg">
                                 <h4 class="fw-bold mb-0">School
                                     Transportation</h4>
-                                <a href="#" class="text-end pt-3 d-block ms-auto me-0">
+                                <a href="<?php echo $path; ?>school-transport/" class="text-end pt-3 d-block ms-auto me-0">
                                     <img src="assets/images/right-arrow.svg">
                                 </a>
                             </div>
@@ -131,7 +131,7 @@ include('includes/header.php');
                                 <img class="icon mb-4" src="assets/images/transport-and-leasing.svg">
                                 <h4 class="fw-bold mb-0">Transport
                                     and Leasing</h4>
-                                <a href="#" class="text-end pt-3 d-block ms-auto me-0">
+                                <a href="<?php echo $path; ?>transport-and-leasing/" class="text-end pt-3 d-block ms-auto me-0">
                                     <img src="assets/images/right-arrow.svg">
                                 </a>
                             </div>

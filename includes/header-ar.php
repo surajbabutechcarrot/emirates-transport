@@ -33,6 +33,8 @@
                         <ul>
                             <li><a href="<?php echo $path; ?>maintanance/ar/">صيانة</a></li>
                             <li><a href="<?php echo $path; ?>new-ventures/ar/">مشاريع جديدة</a></li>
+                            <li><a href="<?php echo $path; ?>school-transport/ar/">النقل المدرسي</a></li>
+                            <li><a href="<?php echo $path; ?>transport-and-leasing/">النقل والتأجﻴﺮ</a></li>
                         </ul>
                     </li>
                         <li><a href="<?php echo $path; ?>media/ar/">وسائط</a></li>

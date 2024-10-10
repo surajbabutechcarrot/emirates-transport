@@ -14556,6 +14556,10 @@ body.show-menu .mob-btn span + span + span {
   width: 50%;
 }
 
+.main-nav > ul > li ul li a {
+  text-decoration: none;
+}
+
 /* ================================
             Slick Slider
 ============================== */
@@ -15221,6 +15225,13 @@ body.show-menu .mob-btn span + span + span {
   .mission-slider .slick-slide .text, .mission-slider-ar .slick-slide .text {
     padding: 1.875rem;
   }
+}
+.mission-slider .slick-slide img, .mission-slider-ar .slick-slide img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }
 .mission-slider .slick-dots, .mission-slider-ar .slick-dots {
   position: relative;

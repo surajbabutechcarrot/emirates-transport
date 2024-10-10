@@ -188,29 +188,40 @@ include('../includes/header.php');
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div class="text m-auto">
-                                    <h4 class="fw-bold text-primary">Operational Efficiency</h4>
-                                    <p class="mb-0">Through optimized processes and resource management, Emirates
-                                        Transport ensures
-                                        smooth and cost-effective operations, enhancing productivity and customer
-                                        satisfaction across all sectors.</p>
+                                    <h4 class="fw-bold text-primary">Technology & Innovation</h4>
+                                    <p class="mb-0">Leveraging cutting-edge technology, Emirates Transport integrates
+                                        innovative solutions to enhance operational processes, streamline services, and
+                                        deliver advanced transport solutions to meet modern challenges.</p>
                                 </div>
                             </div>
                             <div class="col-lg-5">
-                                <img src="<?php echo $path; ?>assets/images/mission-1.png">
+                                <img src="<?php echo $path; ?>assets/images/mission-2.png">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div class="text m-auto">
-                                    <h4 class="fw-bold text-primary">Operational Efficiency</h4>
-                                    <p class="mb-0">Through optimized processes and resource management, Emirates
-                                        Transport ensures
-                                        smooth and cost-effective operations, enhancing productivity and customer
-                                        satisfaction across all sectors.</p>
+                                    <h4 class="fw-bold text-primary">Sustainability & Green Fleet</h4>
+                                    <p class="mb-0">Emirates Transport prioritizes eco-friendly solutions, focusing on
+                                        reducing environmental impact through a green fleet initiative that promotes
+                                        electric and low-emission vehicles for sustainable transport.</p>
                                 </div>
                             </div>
                             <div class="col-lg-5">
-                                <img src="<?php echo $path; ?>assets/images/mission-1.png">
+                                <img src="<?php echo $path; ?>assets/images/mission-3.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-7 d-flex align-items-center">
+                                <div class="text m-auto">
+                                    <h4 class="fw-bold text-primary">Safety & Security</h4>
+                                    <p class="mb-0">Emphasizing the highest standards of safety and security, Emirates
+                                        Transport is committed to safeguarding passengers, staff, and assets, ensuring
+                                        reliability and peace of mind in every journey.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="<?php echo $path; ?>assets/images/mission-4.png">
                             </div>
                         </div>
                     </div>
@@ -318,10 +329,10 @@ include('../includes/header.php');
                     </div>
                 </div>
                 <div class="w-100 mt-5 d-flex box p-0">
-                    <div class="col-5 pe-0">
+                    <div class="col-lg-5 col-md-12 pe-0">
                         <img src="<?php echo $path; ?>assets/images/team-2.png">
                     </div>
-                    <div class="col-7 d-flex align-items-center">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-7 col d-flex align-items-center">
                         <div class="text w-100 p-5">
                             <h3 class="fw-bold text-primary text-uppercase">Faryal Tawakul</h3>
                             <h5>Deputy Chief Executive Officer</h5>
@@ -342,7 +353,7 @@ include('../includes/header.php');
         </div>
     </section>
     <!-- Meet our team section end -->
-     <!-- Awwards section start -->
+    <!-- Awwards section start -->
     <section class="std-space light-bg">
         <div class="container">
             <div class="row">
@@ -398,7 +409,7 @@ include('../includes/header.php');
             </div>
         </div>
     </section>
-     <!-- Awwards section end -->
+    <!-- Awwards section end -->
     <!-- Slider section start -->
     <section class="app-slider std-space">
         <div class="container">

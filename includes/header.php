@@ -33,6 +33,8 @@
                         <ul>
                             <li><a href="<?php echo $path; ?>maintanance/">Maintenance</a></li>
                             <li><a href="<?php echo $path; ?>new-ventures/">New Ventures</a></li>
+                            <li><a href="<?php echo $path; ?>school-transport/">School Transportation</a></li>
+                            <li><a href="<?php echo $path; ?>transport-and-leasing/">Transport and Leasing</a></li>
                         </ul>
                     </li>
                         <li><a href="<?php echo $path; ?>media/">Media</a></li>

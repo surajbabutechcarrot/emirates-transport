@@ -9,13 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $path; ?>assets/css/main.min.css">
     <title>مواصلات الإمارات <?php if($page_title) echo " - ".$page_title; ?></title>
-    <?php
-        // Get the current file name
-        $current_page = basename($_SERVER['PHP_SELF']);
-        if ($current_page == 'maintenance-ar.php'||'leasing-ar.php') {
-            echo '<link rel="stylesheet" type="text/css" href="assets/css/pages/maintenance.css">';
-        }
-    ?>
+    <link rel="stylesheet" href="<?php echo $path; ?>assets/css/maintenance.css">
     <meta name="robots" content="noindex, nofollow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <link rel="icon" href="<?php echo $path; ?>assets/images/favicon.png" sizes="32x32">
     <link rel="icon" href="<?php echo $path; ?>assets/images/favicon.png" sizes="192x192">
@@ -35,7 +29,12 @@
                     <ul>
                         <li><a class="active" href="<?php echo $path; ?>ar/">بيت</a></li>
                         <li><a href="<?php echo $path; ?>about/ar/">معلومات عنا</a></li>
-                        <li><a href="<?php echo $path; ?>services/ar/">خدمات</a></li>
+                        <li class="submenu"><a href="<?php echo $path; ?>services/ar/">خدمات</a>
+                        <ul>
+                            <li><a href="<?php echo $path; ?>maintanance/ar/">صيانة</a></li>
+                            <li><a href="<?php echo $path; ?>../new-ventures/ar/">مشاريع جديدة</a></li>
+                        </ul>
+                    </li>
                         <li><a href="<?php echo $path; ?>media/ar/">وسائط</a></li>
                         <li><a href="<?php echo $path; ?>contact/ar/">اتصل بنا</a></li>
                         <li><a href="<?php echo $path; ?>gitex/ar/">جيتكس</a></li>

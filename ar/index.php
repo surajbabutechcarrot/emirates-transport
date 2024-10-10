@@ -17,7 +17,7 @@ include('../includes/header-ar.php');
                         <img class="round" src="<?php echo $path; ?>assets/images/round.svg" alt="">
                         <div class="story">
                             <div class="content m-auto">
-                                <h6>مرحباً بكم في مواصلات الإمارات</h6>
+                                <h6>مرحبًا بكم في مواصلات الإمارات</h6>
                                 <h1 class="mb-5">نحن رحلتك</h1>
                                 <a class="play mt-5" href="" data-toggle="modal" data-target=".bd-example-modal-lg"
                                     href=""> <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg"
@@ -65,20 +65,10 @@ include('../includes/header-ar.php');
                 <article class="col-lg-6 pt-md-5 pt-lg-0 pt-5 d-flex align-items-center">
                     <div class="text">
                         <h6>معلومات عنا</h6>
-                        <h2 class="ttl-40 fw-bold py-3 text-uppercase">بوابتك إلى حلول النقل الفعالة
-
-                        </h2>
-                        <p>تقف شركة الإمارات العامة للنقل والخدمات، المعروفة باسم مواصلات الإمارات
-                            مثل
-                            شركة رائدة في قطاع النقل والخدمات، وتفتخر بإرث مثير للإعجاب يبلغ 41 عامًا
-                            سنين
-                            من التميز. منذ إنشائها في عام 1981 كمؤسسة من قبل الحكومة الاتحادية،
-                            لقد تطورت مواصلات الإمارات لتصبح مؤسسة متعددة الأوجه تركت بصمة دائمة
-                            على
-                            الإمارات العربية المتحدة والمنطقة ككل.
+                        <h2 class="ttl-40 fw-bold py-3 text-uppercase">بوابتك إلى حلول النقل الفعّالة</h2>
+                        <p>شركة الإمارات العامة للنقل والخدمات، المعروفة عمومًا باسم النقل الإماراتي، تُعتبر رائدة في صناعة النقل والخدمات، حيث تمتلك إرثًا مميزًا يمتد لـ 41 عامًا من التميز. منذ تأسيسها في عام 1981 كمنشأة حكومية اتحادية، تطورت شركة النقل الإماراتي لتصبح منظمة متعددة الأبعاد، تركت بصمة دائمة على دولة الإمارات العربية المتحدة والمنطقة بشكل عام
                         </p>
-                        <a href="" class="btn btn-primary py-3 px-4 mt-3">استكشف خدماتنا
-                        </a>
+                        <a href="" class="btn btn-primary py-3 px-4 mt-3">استكشف خدماتنا</a>
                     </div>
                 </article>
             </div>
@@ -90,8 +80,7 @@ include('../includes/header-ar.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h6>القيادة المتميزة في كل ميل
-                    </h6>
+                    <h6>نقود التميز في كل ميل</h6>
                     <h2 class="ttl-40 fw-bold py-3 text-uppercase pb-3">خدماتنا الرئيسية
                     </h2>
                 </div>
@@ -100,9 +89,7 @@ include('../includes/header-ar.php');
                         <div class="left p-4 d-flex align-items-center">
                             <div class="text">
                                 <img class="icon mb-4" src="<?php echo $path; ?>assets/images/school-transport.svg">
-                                <h4 class="fw-bold mb-0">مدرسة
-                                    مواصلات
-                                </h4>
+                                <h4 class="fw-bold mb-0">النقل المدرسي</h4>
                             </div>
                         </div>
                         <div class="right">
@@ -115,9 +102,10 @@ include('../includes/header-ar.php');
                         <div class="left p-4 d-flex align-items-center">
                             <div class="text">
                                 <img class="icon mb-4" src="<?php echo $path; ?>assets/images/maintanance.svg">
-                                <h4 class="fw-bold mb-0">صيانة،
-                                    بصلح &
-                                    العمليات</h4>
+                                <h4 class="fw-bold mb-0">الصيانة والإصلاح والتشغيل</h4>
+                                <a href="<?php echo $path; ?>maintanance/ar/" class="text-end pt-3 d-block ms-auto me-0">
+                                    <img src="<?php echo $path; ?>assets/images/right-arrow.svg">
+                                </a>
                             </div>
                         </div>
                         <div class="right">
@@ -131,9 +119,7 @@ include('../includes/header-ar.php');
                             <div class="text">
                                 <img class="icon mb-4"
                                     src="<?php echo $path; ?>assets/images/transport-and-leasing.svg">
-                                <h4 class="fw-bold mb-0">ينقل
-                                    والتأجير
-                                </h4>
+                                <h4 class="fw-bold mb-0">النقل والتأجير</h4>
                             </div>
                         </div>
                         <div class="right">
@@ -146,8 +132,10 @@ include('../includes/header-ar.php');
                         <div class="left p-4 d-flex align-items-center">
                             <div class="text">
                                 <img class="icon mb-4" src="<?php echo $path; ?>assets/images/ventures.svg">
-                                <h4 class="fw-bold mb-0">مشاريع جديدة
-                                </h4>
+                                <h4 class="fw-bold mb-0">مشاريع جديدة</h4>
+                                <a href="<?php echo $path; ?>new-ventures/ar/" class="text-end pt-3 d-block ms-auto me-0">
+                                    <img src="<?php echo $path; ?>assets/images/right-arrow.svg">
+                                </a>
                             </div>
                         </div>
                         <div class="right">
@@ -156,8 +144,7 @@ include('../includes/header-ar.php');
                     </div>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <a href="" class="btn btn-primary py-3 px-4 mt-5">عرض المزيد >>
-                    </a>
+                    <a href="" class="btn btn-primary py-3 px-4 mt-5">عرض المزيد >></a>
                 </div>
             </div>
         </div>

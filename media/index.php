@@ -33,7 +33,7 @@ include('../includes/header.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="fw-bold ttl-40 text-black text-center side-line text-uppercase">More News</h2>
+                    <h2 class="fw-bold ttl-40 text-black text-center side-line text-uppercase pb-0 mb-5">More News</h2>
                 </div>
                 <div class="col-lg-6">
                     <div class="box d-flex my-3">
@@ -148,11 +148,11 @@ include('../includes/header.php');
                 <div class="col-lg-12 pt-5 text-center">
                     <nav aria-label="Page navigation example">
                         <ul class="pagination d-inline-flex text-center">
-                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                            <li class="page-item"><a class="page-link" href="#"><<</a></li>
                             <li class="page-item"><a class="page-link" href="#">1</a></li>
                             <li class="page-item"><a class="page-link" href="#">2</a></li>
                             <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            <li class="page-item"><a class="page-link" href="#">>></a></li>
                         </ul>
                     </nav>
                 </div>

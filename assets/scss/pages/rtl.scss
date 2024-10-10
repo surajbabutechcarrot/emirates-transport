@@ -1,6 +1,12 @@
 html[lang="ar"] {
     direction: rtl;
     text-align: right;
+    input{
+        font-family: Bahij_TheSansArabic-Bold;
+        &::placeholder{
+            font-family: Bahij_TheSansArabic-Bold;
+        }
+    }
     .main-nav{
         li{
             &:last-child {
@@ -20,11 +26,20 @@ html[lang="ar"] {
         align-items: center;
         margin: 40px auto 40px auto;
         text-align: center;
+        direction: initial;
         li{
             margin: 0 15px;
             display: inline-block;
             button{
                 display: none;
+            }
+        }
+    }
+    footer{
+        li{
+            &:last-child{
+                    margin-right: 10px; // Assuming size(10) means 10px
+                    margin-left: 0;
             }
         }
     }

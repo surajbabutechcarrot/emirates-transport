@@ -299,7 +299,7 @@ include('../includes/header.php');
                     <h2 class="fw-bold text-black text-uppercase">Meet Our Leadership Team</h2>
                 </div>
                 <div class="w-100 mt-5 d-flex box p-0">
-                    <div class="col-7 d-flex align-items-center">
+                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-7 col d-flex align-items-center">
                         <div class="text w-100 p-5">
                             <h3 class="fw-bold text-primary text-uppercase">Peter Jøergensen</h3>
                             <h5>Chief Financial Officer</h5>
@@ -313,7 +313,7 @@ include('../includes/header.php');
                             </p>
                         </div>
                     </div>
-                    <div class="col-5 pe-0">
+                    <div class="col-lg-5 col-md-12 pe-0">
                         <img src="<?php echo $path; ?>assets/images/team-1.png">
                     </div>
                 </div>
@@ -400,14 +400,14 @@ include('../includes/header.php');
     </section>
      <!-- Awwards section end -->
     <!-- Slider section start -->
-    <section class="app-slider std-space pt-0">
+    <section class="app-slider std-space">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="w-100 slider-app">
                         <div class="row">
                             <div class="col-lg-7">
-                                <img src="assets/images/mobile-app.png" alt="">
+                                <img src="<?php echo $path; ?>assets/images/mobile-app.png" alt="">
                             </div>
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
@@ -456,7 +456,7 @@ include('../includes/header.php');
                         </div>
                         <div class="row">
                             <div class="col-lg-7">
-                                <img src="assets/images/mobile-app.png" alt="">
+                                <img src="<?php echo $path; ?>assets/images/mobile-app.png" alt="">
                             </div>
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
@@ -505,7 +505,7 @@ include('../includes/header.php');
                         </div>
                         <div class="row">
                             <div class="col-lg-7">
-                                <img src="assets/images/mobile-app.png" alt="">
+                                <img src="<?php echo $path; ?>assets/images/mobile-app.png" alt="">
                             </div>
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">

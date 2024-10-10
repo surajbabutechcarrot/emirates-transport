@@ -22,23 +22,29 @@
         @include max(991.98){
             margin: 0 auto;
             text-align: center;
+            justify-content: center;
         }
-        li{
+        li {
             margin: 0 10px;
-            &:last-child{
+        
+            &:last-child {
                 margin-right: 0;
             }
-            svg{
-                width: size(25);
-                height: size(25);
-                transition:all 1s;
-                path{
+        
+            svg {
+                width: 25px; // Assuming size(25) means 25px
+                height: 25px; // Assuming size(25) means 25px
+                transition: all 1s;
+        
+                path {
                     fill: #325294;
                 }
-                &:hover{
+        
+                &:hover {
                     opacity: 0.5;
                 }
             }
         }
+        
     }
 }

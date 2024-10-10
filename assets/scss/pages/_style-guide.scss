@@ -188,7 +188,7 @@ $filter-z:99;
   z-index: 2;
 }
 .slick-dots{
-  position: absolute;
+  position: relative!important;
   display: flex;
   width: 100%;
   margin: 40px 0 0 0;
@@ -256,7 +256,7 @@ $filter-z:99;
       bottom: size(15);
       background: $black;
     }
-    &:before{
+    &:after{
       content:"";
       height: size(1);
       width: 25%;
@@ -269,4 +269,14 @@ $filter-z:99;
 }
 .slick-initialized .slick-slide.row{
   display: flex;
+}
+.pagination{
+  border: none;
+  li{
+    border: none;
+    a{
+      color: $black;
+      border: none;
+    }
+  }
 }

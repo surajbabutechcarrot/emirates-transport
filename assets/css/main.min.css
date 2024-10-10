@@ -13610,7 +13610,7 @@ textarea.form-control-lg {
 }
 
 .slick-dots {
-  position: absolute;
+  position: relative !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13682,7 +13682,7 @@ textarea.form-control-lg {
   bottom: 0.9375rem;
   background: #000;
 }
-.ttl-40.side-line:before {
+.ttl-40.side-line:after {
   content: "";
   height: 0.0625rem;
   width: 25%;
@@ -13696,6 +13696,17 @@ textarea.form-control-lg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.pagination {
+  border: none;
+}
+.pagination li {
+  border: none;
+}
+.pagination li a {
+  color: #000;
+  border: none;
 }
 
 /*  ===============
@@ -14839,6 +14850,8 @@ body.show-menu .mob-btn span + span + span {
 @media (max-width: 1199.98px) {
   .main-header .logo {
     max-width: 10rem;
+    position: absolute;
+    left: 0.9375rem;
   }
 }
 .main-header.slim-header {
@@ -14912,7 +14925,7 @@ body.show-menu .mob-btn span + span + span {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.34);
   content: "";
 }
 .banner h1, .banner .h1 {
@@ -14926,8 +14939,8 @@ body.show-menu .mob-btn span + span + span {
 }
 .banner .round {
   position: relative;
-  max-width: 40rem;
-  width: 40rem;
+  max-width: 28.75rem;
+  width: 28.75rem;
   z-index: -1;
 }
 @media (max-width: 991.98px) {
@@ -15032,13 +15045,15 @@ body.show-menu .mob-btn span + span + span {
   color: #6B6B6B;
 }
 
+.slider-app .slick-list, .slider-app-ar .slick-list {
+  background: #E6E6E7;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
 .slider-app .row, .slider-app-ar .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #E6E6E7;
-  border-radius: 1.25rem;
-  overflow: hidden;
 }
 .slider-app .row .btn, .slider-app-ar .row .btn {
   width: 2.5rem;
@@ -15060,7 +15075,7 @@ body.show-menu .mob-btn span + span + span {
   fill: #d5d8db;
 }
 .slider-app .row .text, .slider-app-ar .row .text {
-  padding: 0 15px;
+  padding: 0 15px 15px 15px;
 }
 .slider-app .slick-dots, .slider-app-ar .slick-dots {
   display: -webkit-box;
@@ -15167,8 +15182,13 @@ body.show-menu .mob-btn span + span + span {
 .mission-slider .slick-slide .text, .mission-slider-ar .slick-slide .text {
   max-width: 37.5rem;
 }
+@media (max-width: 991.98px) {
+  .mission-slider .slick-slide .text, .mission-slider-ar .slick-slide .text {
+    padding: 1.875rem;
+  }
+}
 .mission-slider .slick-dots, .mission-slider-ar .slick-dots {
-  position: absolute;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15260,10 +15280,33 @@ body.show-menu .mob-btn span + span + span {
   border-radius: 1.25rem;
   overflow: hidden;
 }
+@media (max-width: 991.98px) {
+  .team .box {
+    display: block !important;
+  }
+}
 
 html[lang=ar] {
   direction: rtl;
   text-align: right;
+}
+html[lang=ar] input {
+  font-family: Bahij_TheSansArabic-Bold;
+}
+html[lang=ar] input::-webkit-input-placeholder {
+  font-family: Bahij_TheSansArabic-Bold;
+}
+html[lang=ar] input::-moz-placeholder {
+  font-family: Bahij_TheSansArabic-Bold;
+}
+html[lang=ar] input:-ms-input-placeholder {
+  font-family: Bahij_TheSansArabic-Bold;
+}
+html[lang=ar] input::-ms-input-placeholder {
+  font-family: Bahij_TheSansArabic-Bold;
+}
+html[lang=ar] input::placeholder {
+  font-family: Bahij_TheSansArabic-Bold;
 }
 html[lang=ar] .main-nav li:last-child {
   padding-left: 0;
@@ -15280,6 +15323,7 @@ html[lang=ar] .slick-dots {
   align-items: center;
   margin: 40px auto 40px auto;
   text-align: center;
+  direction: initial;
 }
 html[lang=ar] .slick-dots li {
   margin: 0 15px;
@@ -15287,6 +15331,10 @@ html[lang=ar] .slick-dots li {
 }
 html[lang=ar] .slick-dots li button {
   display: none;
+}
+html[lang=ar] footer li:last-child {
+  margin-right: 10px;
+  margin-left: 0;
 }
 
 .footer {
@@ -15320,6 +15368,9 @@ html[lang=ar] .slick-dots li button {
   .footer ul {
     margin: 0 auto;
     text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 .footer ul li {
@@ -15329,8 +15380,8 @@ html[lang=ar] .slick-dots li button {
   margin-right: 0;
 }
 .footer ul li svg {
-  width: 1.5625rem;
-  height: 1.5625rem;
+  width: 25px;
+  height: 25px;
   -webkit-transition: all 1s;
   transition: all 1s;
 }

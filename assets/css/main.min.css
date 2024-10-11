@@ -15110,6 +15110,7 @@ body.show-menu .mob-btn span + span + span {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  width: 100%;
 }
 
 .news .box {
@@ -15513,6 +15514,18 @@ html[lang=ar] .main-nav > ul > li ul li {
 html[lang=ar] .main-nav > ul > li ul li:after {
   right: 1.5625rem;
   left: inherit;
+}
+@media (max-width: 1199.98px) {
+  html[lang=ar] .main-nav ul li.submenu i {
+    left: 0;
+    right: inherit;
+  }
+}
+@media (max-width: 1199.98px) {
+  html[lang=ar] .main-nav ul li.submenu i:before {
+    right: 1.25rem;
+    left: inherit;
+  }
 }
 
 .footer {

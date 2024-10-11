@@ -74,7 +74,7 @@ include('includes/header.php');
                             Emirates Transport has evolved into a multifaceted organization that has left a lasting mark
                             on
                             the United Arab Emirates (UAE) and the broader region.</p>
-                        <a href="" class="btn btn-primary py-3 px-4 mt-3">Explore Our Services</a>
+                        <a href="#services-sec" class="btn btn-primary py-3 px-4 mt-3">Explore Our Services</a>
                     </div>
                 </article>
             </div>
@@ -82,7 +82,7 @@ include('includes/header.php');
     </section>
     <!-- About us section end -->
     <!-- Service section start -->
-    <section class="std-space services">
+    <section class="std-space services" id="services-sec">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -157,9 +157,9 @@ include('includes/header.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 text-center">
+                <!-- <div class="col-lg-12 text-center">
                     <a href="" class="btn btn-primary py-3 px-4 mt-5">View More >></a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -260,7 +260,7 @@ include('includes/header.php');
                     </div>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <a href="" class="btn btn-primary py-3 px-4 mt-5">View More >></a>
+                    <a href="<?php echo $path; ?>media/" class="btn btn-primary py-3 px-4 mt-5">View More >></a>
                 </div>
             </div>
         </div>
@@ -329,8 +329,7 @@ include('includes/header.php');
                                 <div class="text">
                                     <h4>OneET Apps</h4>
                                     <h1 class="fw-bold text-uppercase text-primary">OneET</h1>
-                                    <!-- <p>Emirates Transport, in collaboration with the Emirates Schools Establishment,
-                                        launched a smart app in early 2023 for parents of public-school students. </p> -->
+                                    <p>The <strong>OneET App</strong> offers mobile access for Emirates Transport's customers and partners, simplifying operations and enhancing safety with a user-friendly experience.</p>
                                     <a target="_blank" href="https://apps.apple.com/ae/app/oneet/id1541525393" class="btn btn-primary mt-3"><svg id="Layer_2"
                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.78 24.3">
                                             <defs>

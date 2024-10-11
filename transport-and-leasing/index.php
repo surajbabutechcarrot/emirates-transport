@@ -33,7 +33,7 @@ include('../includes/header.php');
             <div class="row h-100 mt-md-5 mb-4 mb-md-0 pt-md-5">
                 <div class="col-md-6 my-auto">
                     <h2 class="ttl-40 text-black fw-bold text-uppercase mb-4">Solutions for Every <br>Journey</h2>
-                    <p>At the core of every operation,<br> our services drive success</p>
+                    <p>At the core of every operation,<br> our services drive success.</p>
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex">
@@ -110,7 +110,7 @@ include('../includes/header.php');
                 </div>
                 <div class="col-md-5 my-auto pt-5 pt-md-0">
                     <h2 class="ttl-40 text-black fw-bold text-uppercase mb-4">Our green fleet</h2>
-                    <p>At the core of every operation,<br> our services drive success</p>
+                    <p>At the core of every operation,<br> our services drive success.</p>
                     <div class="d-flex mt-4 gap-5 mb-4 mb-md-0">
                         <div>
                             <span class="ttl-lg fw-semi-bold">100+</span>

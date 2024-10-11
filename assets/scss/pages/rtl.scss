@@ -50,4 +50,16 @@ html[lang="ar"] {
         right: size(25);
         left: inherit;
     }
+    .main-nav ul li.submenu i{
+        @include max(1199.98){
+                left: 0;
+                right: inherit;
+        }
+    }
+    .main-nav ul li.submenu i:before{
+        @include max(1199.98){
+            right:size(20);
+            left: inherit;
+        }
+    }
 }

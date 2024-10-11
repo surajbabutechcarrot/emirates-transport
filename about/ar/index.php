@@ -41,7 +41,7 @@ include('../../includes/header-ar.php');
                 <div class="col-lg-12 text-center">
                     <h2 class="ttl-40 fw-bold py-3 text-uppercase">نفخر بكوننا المزود الرائد لخدمات النقل في الإمارات</h2>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-1.svg">
                     </div>
@@ -50,7 +50,7 @@ include('../../includes/header-ar.php');
                         <p class="text-black">عام</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-2.svg">
                     </div>
@@ -59,7 +59,7 @@ include('../../includes/header-ar.php');
                         <p class="text-black">مجموع الموظين</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-3.svg">
                     </div>
@@ -68,7 +68,7 @@ include('../../includes/header-ar.php');
                         <p class="text-black">خدمات متنوعة</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-4.svg">
                     </div>
@@ -77,7 +77,7 @@ include('../../includes/header-ar.php');
                         <p class="text-black">سيارة</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-5.svg">
                     </div>
@@ -86,7 +86,7 @@ include('../../includes/header-ar.php');
                         <p class="text-black">العملاء</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-6.svg">
                     </div>
@@ -95,7 +95,7 @@ include('../../includes/header-ar.php');
                         <p class="text-black">القطاعات</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-7.svg">
                     </div>
@@ -104,7 +104,7 @@ include('../../includes/header-ar.php');
                         <p class="text-black">حافلة</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-8.svg">
                     </div>
@@ -113,7 +113,7 @@ include('../../includes/header-ar.php');
                         <p class="text-black">سائق</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-9.svg">
                     </div>
@@ -122,7 +122,7 @@ include('../../includes/header-ar.php');
                         <p class="text-black">إجمالي الأسطول</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-10.svg">
                     </div>
@@ -131,7 +131,7 @@ include('../../includes/header-ar.php');
                         <p class="text-black">الإيرادات</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-11.svg">
                     </div>
@@ -140,7 +140,7 @@ include('../../includes/header-ar.php');
                         <p class="text-black">إماراتي</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 row align-items-center py-4">
+                <div class="col-lg-3 col-sm-6 col-6 row align-items-center py-4">
                     <div class="col-3">
                         <img class="info-icon" src="<?php echo $path; ?>assets/images/about-icon-12.svg">
                     </div>
@@ -220,49 +220,49 @@ include('../../includes/header-ar.php');
                     <p>تكريم التميز في الخدمة والابتكار</p>
                     <h4 class="fw-bold text-uppercase ttl-40 pb-4">اكتشف خدماتنا وعلاماتنا التجارية</h4>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 col-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-1.svg">
                     </div>
                     <h5 class="text-center pt-3">الوطنية للمزادات</h5>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 col-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-2.svg">
                     </div>
                     <h5 class="text-center pt-3">إماريتس موتو</h5>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 col-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
-                        <img src="<?php echo $path; ?>../assets/images/profix.png">
+                        <img src="<?php echo $path; ?>assets/images/profix.png">
                     </div>
                     <h5 class="text-center pt-3">إماريتس موتو بروفيكس</h5>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 col-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-4.svg">
                     </div>
                     <h5 class="text-center pt-3">غسيل سيارات الإمارات</h5>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 col-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-5.svg">
                     </div>
                     <h5 class="text-center pt-3">معهد مواصلات الإمارات للسياقة</h5>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 col-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-6.svg">
                     </div>
                     <h5 class="text-center pt-3">مساعدة</h5>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 col-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-7.png">
                     </div>
                     <h5 class="text-center pt-3">تاكسي مطار أبوظبي</h5>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 col-6 my-4">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-8.svg">
                     </div>
@@ -311,7 +311,7 @@ include('../../includes/header-ar.php');
                         <div class="text w-100 p-5">
                             <h3 class="fw-bold text-primary text-uppercase">فاريال توكل
                             </h3>
-                            <h5>نائبة الرئيس التنفيذي</h5>
+                            <h5>نائب الرئيس التنفيذي</h5>
                             <p>شخصية رئيسية في تحويل قطاع النقل في الإمارات. تتمتع بخبرة تزيد عن 20 عامًا، وتقوم بقيادة ابتكارات رائدة ومبادرات استدامة. يركز اهتمامها على النقل الأخضر، مثل تنفيذ بنية تحتية لشحن السيارات الكهربائية، مما يتماشى مع الأهداف البيئية للإمارات. فاريال تمثل أيضًا مثالًا رائعًا للنساء في القيادة، حيث تعد نموذجًا ملهمًا في صناعة يهيمن عليها الرجال. تحت قيادتها، أقامت الإمارات للنقل شراكات استراتيجية وتبنت حلولًا مستدامة ومتطورة، مما وضع الشركة كقائد إقليمي في مجال النقل.
 
 
@@ -330,9 +330,10 @@ include('../../includes/header-ar.php');
                 <div class="col-lg-12 text-center">
                     <h2 class="ttl-40 fw-bold text-uppercase">جوائز وتكريمات</h2>
                 </div>
+                
                 <div class="col-lg-12">
                     <div class="awards-slider-ar pt-5 w-100">
-                    <div class="row">
+                        <div class="row">
                             <div class="box bg-white rounded-4 w-100">
                                 <img src="<?php echo $path; ?>assets/images/award-1.png">
                             </div>
@@ -419,6 +420,8 @@ include('../../includes/header-ar.php');
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </div>
     </section>
@@ -487,9 +490,7 @@ include('../../includes/header-ar.php');
                                 <div class="text">
                                     <h4>تطبيقات ET</h4>
                                     <h1 class="fw-bold text-primary">حافالتي</h1>
-                                    <p>مواصلات الإمارات، بالتعاون مع مؤسسة مدارس الإمارات،
-                                        أطلقت تطبيقًا ذكيًا مطلع عام 2023 لأولياء أمور طلاب المدارس الحكومية.
-                                    </p>
+                                    <p>يتيح تطبيق <strong>OneET</strong> لعملاء مواصلات الإمارات وشركائها إمكانية الوصول للخدمات والوظائف عبر الهاتف المحمول، مما يبسط العمليات ويعزز السلامة من خلال تجربة مريحة ومرنة.</p>
                                     <a href="" class="btn btn-primary mt-3"><svg id="Layer_2"
                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.78 24.3">
                                             <defs>

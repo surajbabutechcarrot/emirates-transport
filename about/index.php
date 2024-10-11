@@ -239,49 +239,49 @@ include('../includes/header.php');
                     <p>Honoring Excellence in Service and Innovation</p>
                     <h4 class="fw-bold text-uppercase ttl-40 pb-4">Discover our services & brands</h4>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 my-4 col-6">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-1.svg">
                     </div>
                     <h5 class="text-center pt-3">Al Wataneya Auction</h5>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 my-4 col-6">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-2.svg">
                     </div>
                     <h5 class="text-center pt-3">Emirates Moto</h5>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 my-4 col-6">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/profix.png">
                     </div>
                     <h5 class="text-center pt-3">Emirates Moto Profix</h5>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 my-4 col-6">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-4.svg">
                     </div>
                     <h5 class="text-center pt-3">Emirates Car Wash</h5>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 my-4 col-6">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-5.svg">
                     </div>
                     <h5 class="text-center pt-3">ETDI</h5>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 my-4 col-6">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-6.svg">
                     </div>
                     <h5 class="text-center pt-3">Musada</h5>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 my-4 col-6">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-7.png">
                     </div>
                     <h5 class="text-center pt-3">ABU DHABI AIRPORT TAXI</h5>
                 </div>
-                <div class="col-lg-3 col-sm-6 my-4">
+                <div class="col-lg-3 col-sm-6 my-4 col-6">
                     <div class="box p-5 bg-white rounded-4 w-100">
                         <img src="<?php echo $path; ?>assets/images/discover-8.svg">
                     </div>
@@ -336,7 +336,7 @@ include('../includes/header.php');
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-7 col d-flex align-items-center">
                         <div class="text w-100 p-5">
                             <h3 class="fw-bold text-primary text-uppercase">Faryal Tawakul</h3>
-                            <h5>Deputy Chief Executive Officer</h5>
+                            <h5>Executive Vice President</h5>
                             <p>A key figure in transforming the UAE's transportation sector. With over 20 years of
                                 experience, she leads groundbreaking innovations and sustainability initiatives. Her
                                 focus on green transportation, such as implementing EV charging infrastructure, aligns
@@ -459,7 +459,7 @@ include('../includes/header.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="w-100 slider-app">
+                <div class="w-100 slider-app">
                         <div class="row">
                             <div class="col-lg-7">
                                 <img src="<?php echo $path; ?>assets/images/mobile-app.png" alt="">
@@ -470,7 +470,7 @@ include('../includes/header.php');
                                     <h1 class="fw-bold text-uppercase text-primary">Hafilaty</h1>
                                     <p>Emirates Transport, in collaboration with the Emirates Schools Establishment,
                                         launched a smart app in early 2023 for parents of public-school students. </p>
-                                    <a href="" class="btn btn-primary mt-3"><svg id="Layer_2"
+                                    <a href="https://apps.apple.com/ae/app/hafilaty-%D8%AD%D8%A7%D9%81%D9%84%D8%AA%D9%89/id1487966163" class="btn btn-primary mt-3"><svg id="Layer_2"
                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.78 24.3">
                                             <defs>
                                             </defs>
@@ -483,7 +483,7 @@ include('../includes/header.php');
                                                 </g>
                                             </g>
                                         </svg></a>
-                                    <a href="" class="btn btn-primary mt-3">
+                                    <a href="https://play.google.com/store/apps/details?id=ae.abudhabi.wathiq.hafilty_parent&pcampaignid=web_share" class="btn btn-primary mt-3">
 
                                         <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.3 21.7">
                                             <defs>
@@ -511,15 +511,14 @@ include('../includes/header.php');
                         </div>
                         <div class="row">
                             <div class="col-lg-7">
-                                <img src="<?php echo $path; ?>assets/images/mobile-app.png" alt="">
+                                <img src="<?php echo $path; ?>assets/images/mobile-app-2.png" alt="">
                             </div>
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
-                                    <h4>ET APPs</h4>
-                                    <h1 class="fw-bold text-uppercase text-primary">Hafilaty</h1>
-                                    <p>Emirates Transport, in collaboration with the Emirates Schools Establishment,
-                                        launched a smart app in early 2023 for parents of public-school students. </p>
-                                    <a href="" class="btn btn-primary mt-3"><svg id="Layer_2"
+                                    <h4>OneET Apps</h4>
+                                    <h1 class="fw-bold text-uppercase text-primary">OneET</h1>
+                                    <p>The <strong>OneET App</strong> offers mobile access for Emirates Transport's customers and partners, simplifying operations and enhancing safety with a user-friendly experience.</p>
+                                    <a target="_blank" href="https://apps.apple.com/ae/app/oneet/id1541525393" class="btn btn-primary mt-3"><svg id="Layer_2"
                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.78 24.3">
                                             <defs>
                                             </defs>
@@ -532,56 +531,7 @@ include('../includes/header.php');
                                                 </g>
                                             </g>
                                         </svg></a>
-                                    <a href="" class="btn btn-primary mt-3">
-
-                                        <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.3 21.7">
-                                            <defs>
-                                                <style>
-                                                    .cls-1 {
-                                                        fill: #d5d8db;
-                                                    }
-                                                </style>
-                                            </defs>
-                                            <g id="Layer_2-2" data-name="Layer_2">
-                                                <g>
-                                                    <path class="cls-1"
-                                                        d="M.19,1.11c-.12.26-.19.55-.19.85v17.78c0,.17.02.35.07.51l8.72-9.59L.19,1.11Z" />
-                                                    <path class="cls-1"
-                                                        d="M12.96,6.06L2.93.26C2.13-.2,1.26,0,.7.46l8.63,9.6,3.63-4Z" />
-                                                    <path class="cls-1"
-                                                        d="M9.33,11.27L.47,21.01c.55.63,1.54.95,2.46.42l10.23-5.91-3.55-3.95-.28-.31Z" />
-                                                    <path class="cls-1"
-                                                        d="M18.33,9.16l-4.64-2.68-3.81,4.19h0l.08.08,3.92,4.36,4.45-2.57c.61-.35.98-.98.98-1.69s-.36-1.34-.98-1.69Z" />
-                                                </g>
-                                            </g>
-                                        </svg></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-7">
-                                <img src="<?php echo $path; ?>assets/images/mobile-app.png" alt="">
-                            </div>
-                            <div class="col-lg-5 d-flex align-items-center">
-                                <div class="text">
-                                    <h4>ET APPs</h4>
-                                    <h1 class="fw-bold text-uppercase text-primary">Hafilaty</h1>
-                                    <p>Emirates Transport, in collaboration with the Emirates Schools Establishment,
-                                        launched a smart app in early 2023 for parents of public-school students. </p>
-                                    <a href="" class="btn btn-primary mt-3"><svg id="Layer_2"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.78 24.3">
-                                            <defs>
-                                            </defs>
-                                            <g id="Layer_2-2" data-name="Layer_2">
-                                                <g>
-                                                    <path class="cls-1"
-                                                        d="M13.75,3.51C14.88,2.02,14.78,0,14.78,0c0,0-1.84-.18-3.56,1.8-1.56,1.8-1.3,3.7-1.3,3.7,0,0,1.78.7,3.82-1.99Z" />
-                                                    <path class="cls-1"
-                                                        d="M16.53,13c-.07-2.91,2.4-4.56,2.57-4.73s-1.61-2.16-3.77-2.35c-2.62-.24-4,1-5.43,1.06-1.73.07-2.23-1.44-5.26-.82C2.64,6.57-.33,8.99.03,13.89c.31,4.23,2.85,9.43,5.69,10.35,1.1.36,3.48-1.04,4.64-1.03,1.09,0,3.83,1.47,4.8.98,3.29-1.66,4.61-6.34,4.61-6.34,0,0-3.15-1.06-3.24-4.85Z" />
-                                                </g>
-                                            </g>
-                                        </svg></a>
-                                    <a href="" class="btn btn-primary mt-3">
+                                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mysalesforce.mycommunity.C00D3z000000eGDPEA2.A0OT3z0000008OI6GAM.app1&pcampaignid=web_share" class="btn btn-primary mt-3">
 
                                         <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.3 21.7">
                                             <defs>

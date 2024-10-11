@@ -7,10 +7,10 @@
                 <img class="logo" src="<?php echo $path; ?>assets/images/logo.svg" alt="logo" class="img-fluid">
                 <hr>
             </div>
-            <div class="col-lg-6 order-md-2 pt-0 pt-lg-4 order-lg-1">
+            <div class="col-lg-6 order-md-2 order-2 pt-0 pt-lg-0 pt-4 order-lg-1">
                 <p>© 2024 Emirates Transport. All Rights Reserved.</p>
             </div>
-            <div class="col-lg-6 order-lg-2 order-md-1">
+            <div class="col-lg-6 order-lg-2 order-md-1 order-1">
             <ul class="social d-flex align-items-center">
                     <li><a target="_blank" href="https://www.instagram.com/emiratestrans?igsh=MWZvajhwaTN4MTI5cw">
                             <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.76 27.76">
@@ -110,9 +110,10 @@
         jQuery(document).ready(function () {
             <?php
             $homeURL = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-            $homeURL_ar = str_replace("/ar/", "/", $homeURL);
+            $homeURL = str_replace("/ar/", "/", $homeURL);
+            $homeURL = str_replace("/?lead=success", "/", $homeURL);
             ?>
-            var homeURL = "<?php echo $homeURL_ar; ?>";
+            var homeURL = "<?php echo $homeURL; ?>";
             jQuery('nav.main-nav > ul > li:last-child a').attr('href', homeURL);
         });
 

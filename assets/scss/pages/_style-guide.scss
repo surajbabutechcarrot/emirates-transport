@@ -137,8 +137,15 @@ $filter-z:99;
   @include max(991.98) {
     font-size: size(30);
   }
+  @include max(767.98) {
+    font-size: size(26);
+  }
 }
-
+p{
+  @include max(991.98){
+    font-size: size(14);
+  }
+}
 .std-space {
   padding: 100px 0;
 
@@ -186,13 +193,13 @@ $filter-z:99;
   }
 }
 
-.ttl-40 {
-  font-size: size(40);
+// .ttl-40 {
+//   font-size: size(40);
 
-  @include max(1199.98) {
-    font-size: size(32);
-  }
-}
+//   @include max(1199.98) {
+//     font-size: size(32);
+//   }
+// }
 
 .ttl-30 {
   font-size: size(30);
@@ -357,6 +364,13 @@ $filter-z:99;
 
 .awards-slider,
 .awards-slider-ar {
+  .slick-dots{
+    li{
+      &::before{
+        background: $white!important;
+      }
+    }
+  }
   .slick-slide {
     margin: 0 15px;
 
@@ -423,4 +437,45 @@ $filter-z:99;
       max-width: size(40);
     }
   }
+}
+
+textarea.form-control{
+  font-weight: bold;
+}
+.main-nav{
+  ul{
+    li{
+      &.submenu{
+        @include min(1199.98){
+          padding-right: size(35);
+        }
+      }
+    }
+  }
+}
+.pride-info{
+  .col-lg-3.col-sm-6.col-6.row.align-items-center.py-4{
+    @include max(767.98){
+      display: block!important;
+    }
+    .col-3{
+      @include max(767.98){
+        width: 40%;
+      }
+    }
+    .info-icon{
+      @include max(767.98){
+        margin-bottom: size(15);
+      }
+    }
+  }
+}
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: black;
+}
+
+::selection {
+  color: white;
+  background: black;
 }

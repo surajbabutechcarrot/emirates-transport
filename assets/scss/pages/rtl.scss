@@ -14,6 +14,11 @@ html[lang="ar"] {
             }
         }
     }
+    .main-nav > ul > li ul{
+        @include min(1199.98){
+            right: 0;
+        }
+    }
     .slick-dots{
         display: -webkit-box;
         display: -ms-flexbox;

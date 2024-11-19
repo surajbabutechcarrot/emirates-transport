@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Emirates Transport</title>
+	<title>AD Air Expo 2024</title>
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,11 +61,11 @@
 		<img class="bg" src="assets/images/banner.jpg" alt="">
 		<div class="container h-100">
 			<div class="row h-100">
-				<div class="col-lg-4"></div>
+				<div class="col-lg-4 blank"></div>
 				<div class="col-lg-4 mx-auto text-center">
 					<img class="pt-4 logo" src="assets/images/logo.svg">
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4 lang-cen">
 					<div class="header-language mt-5">
 						<a href="../" class="header-back-button">
 							Back to Website
@@ -317,7 +317,7 @@
 
 
 					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="g-recaptcha" data-sitekey="6LcZ1mIqAAAAALy42eoo-C7YCO6w5NtQgxXX1YoU"></div>
+						<div class="g-recaptcha" data-sitekey="6LcQyWIqAAAAAKBvcOf8aBBHlliblNMZV165CNzH"></div>
 					</div>
 					<div class="col-lg-12 text-center">
 						<input type="hidden" id="lead_source" maxlength="40" name="lead_source" size="20" type="text"

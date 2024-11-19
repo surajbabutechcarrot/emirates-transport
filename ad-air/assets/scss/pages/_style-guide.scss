@@ -120,7 +120,24 @@ $filter-z:99;
     @include max(1199.98){
         font-size: size(40);
     }
+    @include max(767.98){
+      font-size: size(28);
+  }
   }
   html {
     scroll-behavior: smooth;
+  }
+  html[lang="ar"]{
+    .lang-cen{
+      @include max(991.98){
+        order: 2;
+      }
+    }
+    .banner{
+      .col-lg-12.mx-auto.text-center{
+        @include max(991.98){
+          order: 3;
+        }
+      }
+    }
   }

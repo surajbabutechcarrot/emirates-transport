@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Emirates Transport Driving Institute</title>
+	<title>معرض أبوظبي للطيران 2024</title>
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,10 +62,10 @@
 		<img class="bg" src="../assets/images/banner.png" alt="">
 		<div class="container h-100">
 			<div class="row h-100">
-				<div class="col-lg-4">
+				<div class="col-lg-4 lang-cen">
 					<div class="header-language mt-5">
 						<a href="../" class="header-back-button">
-							Back to Website
+				العودة إلى الموقع
 						</a>
 						<div class="lng-switch">
 							<a href="../">English</a>
@@ -75,7 +75,7 @@
 				<div class="col-lg-4 mx-auto text-center">
 					<img class="pt-4 logo" src="../assets/images/logo.svg">
 				</div>
-				<div class="col-lg-4"></div>
+				<div class="col-lg-4 blank"></div>
 				<article class="col-lg-12 mx-auto text-center">
 					<img class="border-line" src="../assets/images/banner-border.png">
 					<h1 class="text-white text-uppercase display-3 fw-bold">مــــعــــك فــــي رحــــلــــتــــك
@@ -247,9 +247,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<h2 class="fw-bold text-primary mb-4 text-uppercase">Register Your Interest</h2>
-					<p>Please fill out the form below to stay updated on our latest offerings and engage with our team
-						at the Expo.</p>
+					<h2 class="fw-bold text-primary mb-4 text-uppercase">سجّل اهتمامك</h2>
+					<p>يرجى ملء النموذج أدناه للبقاء على اطلاع بأحدث عروضنا والتواصل مع فريقنا في المعرض.
+					</p>
 				</div>
 
 				<?php $homeURL = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>
@@ -316,7 +316,7 @@
 
 
 					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="g-recaptcha" data-sitekey="6LcZ1mIqAAAAALy42eoo-C7YCO6w5NtQgxXX1YoU"></div>
+						<div class="g-recaptcha" data-sitekey="6LcQyWIqAAAAAKBvcOf8aBBHlliblNMZV165CNzH"></div>
 					</div>
 					<div class="col-lg-12 text-center">
 						<input type="hidden" id="lead_source" maxlength="40" name="lead_source" size="20" type="text"
@@ -374,7 +374,7 @@
 							<h5 class="fw-bold">النقل
                            <br> المدرسي
 							</h5>
-							<a href="https://et.ae/school-transport/" target="_blank"
+							<a href="https://et.ae/school-transport/ar/" target="_blank"
 								class="py-2 px-3 mt-3 text-end d-block">عرض التفاصيل ></a>
 						</div>
 					</div>
@@ -387,7 +387,7 @@
 						<div class="right">
 							<h5 class="fw-bold">النقل
                           <br>  والتأجير</h5>
-							<a href="https://et.ae/transport-and-leasing/" target="_blank"
+							<a href="https://et.ae/transport-and-leasing/ar/" target="_blank"
 								class="py-2 px-3 mt-3 text-end d-block">عرض التفاصيل ></a>
 						</div>
 					</div>
@@ -400,7 +400,7 @@
 						<div class="right">
 							<h5 class="fw-bold">المشاريع
                       <br>      الجديدة</h5>
-							<a href="https://et.ae/new-ventures/" target="_blank"
+							<a href="https://et.ae/new-ventures/ar/" target="_blank"
 								class="py-2 px-3 mt-3 text-end d-block">عرض التفاصيل ></a>
 						</div>
 					</div>
@@ -414,8 +414,8 @@
 							<h5 class="fw-bold">الخدمات
                         <br>    الفنية (MRO)
 							</h5>
-							<a href="https://et.ae/maintanance/" target="_blank"
-								class="py-2 px-3 mt-3 text-end d-block">See عرض التفاصيل ></a>
+							<a href="https://et.ae/maintanance/ar/" target="_blank"
+								class="py-2 px-3 mt-3 text-end d-block"> عرض التفاصيل ></a>
 						</div>
 					</div>
 				</div>
@@ -443,8 +443,8 @@
 					<hr>
 				</div>
 				<div class="col-lg-6 order-md-2 order-2 pt-0 pt-lg-0 pt-4 order-lg-1">
-					<p>© 2024 Emirates Transport. All Rights Reserved. | <a class="text-black"
-							href="https://et.ae/privacy-policy/">Privacy Policy</a></p>
+					<p>جميع الحقوق محفوظة لمواصلات الإمارات © 2024| <a class="text-black"
+							href="https://et.ae/privacy-policy/ar/"> سياسة الخصوصية</a></p>
 				</div>
 				<div class="col-lg-6 order-lg-2 order-1 order-md-1">
 					<ul class="social d-flex align-items-center">

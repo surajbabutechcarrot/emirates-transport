@@ -36,6 +36,42 @@
             position: absolute;
             left: 0;
             top: 0;
+            @include max(991.98){
+                display: none;
+            }
+        }
+        &.h-100{
+            @include max(991.98){
+                height: auto!important;
+            }
+            .blank{
+                @include max(991.98){
+                    display: none;
+                }
+            }
+            .col-lg-12.mx-auto.text-center{
+                @include max(991.98){
+                    padding-top: size(40);
+                }
+            }
+        }
+    }
+    .lang-cen{
+        @include max(991.98){
+            text-align: center;
+        }
+        .header-language{
+            @include max(991.98){
+                position: relative;
+                right: inherit;
+                display: flex
+            ;
+                align-items: center;
+                gap: 10px;
+                margin: 0 auto;
+                display: inline-flex
+
+            }
         }
     }
 }
@@ -62,10 +98,21 @@
 .text-primary{
     color: $primary-color!important;
 }
+.g-recaptcha{
+    @include max(991.98){
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
 .partners{
     ul{
+        padding: 0;
         &.box{
             list-style: none;
+            @include max(991.98){
+                justify-content: space-around !important;
+
+            }
             li{
                 width: size(340);
                 height: size(340);

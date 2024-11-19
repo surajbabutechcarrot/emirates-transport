@@ -18,7 +18,7 @@ include('../includes/header-ar.php');
                         <div class="story">
                             <div class="content m-auto">
                                 <h6>مرحبًا بكم في مواصلات الإمارات</h6>
-                                <h1 class="mb-5">نحن رحلتك</h1>
+                                <h1 class="mb-0">مــعــاً فــي كــل درب<h1>
                                 <a class="play mt-5" href="" data-toggle="modal" data-target=".bd-example-modal-lg"
                                     href=""> <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 63.46 63.46">
@@ -64,11 +64,10 @@ include('../includes/header-ar.php');
                 </div>
                 <article class="col-lg-6 pt-md-5 pt-lg-0 pt-5 d-flex align-items-center">
                     <div class="text">
-                        <h6>معلومات عنا</h6>
+                        <h6>عن مواصلات الإمارات</h6>
                         <h2 class="ttl-40 fw-bold py-3 text-uppercase">بوابتك إلى حلول النقل الفعّالة</h2>
-                        <p>شركة الإمارات العامة للنقل والخدمات، المعروفة عمومًا باسم النقل الإماراتي، تُعتبر رائدة في صناعة النقل والخدمات، حيث تمتلك إرثًا مميزًا يمتد لـ 41 عامًا من التميز. منذ تأسيسها في عام 1981 كمنشأة حكومية اتحادية، تطورت شركة النقل الإماراتي لتصبح منظمة متعددة الأبعاد، تركت بصمة دائمة على دولة الإمارات العربية المتحدة والمنطقة بشكل عام
-                        </p>
-                        <a href="#services-sec" class="btn btn-primary py-3 px-4 mt-3">استكشف خدماتنا</a>
+                        <p>شركة الإمارات العامة للنقل والخدمات، المعروفة عمومًا باسم مواصلات الإمارات، تُعتبر رائدة في صناعة النقل والخدمات، حيث تمتلك إرثًا مميزًا يمتد لـ 43 عامًا من التميز. منذ تأسيسها في عام 1981 كمؤسسة حكومية اتحادية، تطورت شركة مواصلات الإمارات لتصبح منظمة متعددة الأبعاد، تركت بصمة دائمة على دولة الإمارات العربية المتحدة والمنطقة بشكلٍ عام.</p>
+                        <a href="#services-sec" class="btn btn-primary py-3 px-4 mt-3">اكتشف خدماتنا</a>
                     </div>
                 </article>
             </div>
@@ -81,8 +80,7 @@ include('../includes/header-ar.php');
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h6>نقود التميز في كل ميل</h6>
-                    <h2 class="ttl-40 fw-bold py-3 text-uppercase pb-3">خدماتنا الرئيسية
-                    </h2>
+                    <h2 class="ttl-40 fw-bold py-3 text-uppercase pb-3">خدماتنا الرئيسية</h2>
                 </div>
                 <div class="col-lg-6">
                     <div class="w-100 box my-3">
@@ -105,7 +103,7 @@ include('../includes/header-ar.php');
                         <div class="left p-4 d-flex align-items-center">
                             <div class="text">
                                 <img class="icon mb-4" src="<?php echo $path; ?>assets/images/maintanance.svg">
-                                <h4 class="fw-bold mb-0">الصيانة والإصلاح والتشغيل</h4>
+                                <h4 class="fw-bold mb-0">الخدمات الفنية</h4>
                                 <a href="<?php echo $path; ?>maintanance/ar/" class="text-end pt-3 d-block ms-auto me-0">
                                     <img src="<?php echo $path; ?>assets/images/right-arrow.svg">
                                 </a>
@@ -138,7 +136,7 @@ include('../includes/header-ar.php');
                         <div class="left p-4 d-flex align-items-center">
                             <div class="text">
                                 <img class="icon mb-4" src="<?php echo $path; ?>assets/images/ventures.svg">
-                                <h4 class="fw-bold mb-0">مشاريع جديدة</h4>
+                                <h4 class="fw-bold mb-0">المشاريع الجديدة</h4>
                                 <a href="<?php echo $path; ?>new-ventures/ar/" class="text-end pt-3 d-block ms-auto me-0">
                                     <img src="<?php echo $path; ?>assets/images/right-arrow.svg">
                                 </a>
@@ -161,30 +159,30 @@ include('../includes/header-ar.php');
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center text-white">
-                    <p>اكتشف رحلاتنا التمكينية</p>
+                    <p>اكتشف رحلاتنا المميزة</p>
                     <h3 class="fw-bold">أسطولنا بالأرقام</h3>
                 </div>
                 <div class="col text-white text-center py-5">
                     <h2 class="fw-bold">14,000+</h2>
-                    <h5 class="text-uppercase mb-0">سيارات</h5>
+                    <h5 class="text-uppercase mb-0">سيارة</h5>
                 </div>
                 <div class="col text-white text-center py-5">
                     <h2 class="fw-bold">12,000+</h2>
-                    <h5 class="text-uppercase mb-0">الحافلات</h5>
+                    <h5 class="text-uppercase mb-0">حافلة</h5>
                 </div>
                 <div class="col text-white text-center py-5">
                     <h2 class="fw-bold">700+</h2>
-                    <h5 class="text-uppercase mb-0">الشاحنات
+                    <h5 class="text-uppercase mb-0">شاحنة
                     </h5>
                 </div>
                 <div class="col text-white text-center py-5">
                     <h2 class="fw-bold">50+</h2>
-                    <h5 class="text-uppercase mb-0">الدراجات الإلكترونية
+                    <h5 class="text-uppercase mb-0">دراجةً كهربائية
                     </h5>
                 </div>
                 <div class="col text-white text-center py-5">
                     <h2 class="fw-bold">820 +</h2>
-                    <h5 class="text-uppercase mb-0">عملاء سعداء</h5>
+                    <h5 class="text-uppercase mb-0">عميلاً سعيداً</h5>
                 </div>
             </div>
         </div>
@@ -195,42 +193,19 @@ include('../includes/header-ar.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h6>اكتشف رحلاتنا التمكينية</h6>
-                    <h2 class="ttl-40 fw-bold py-3 text-uppercase pb-3">اكتشف رحلاتنا التمكينية
+                    <h6>اكتشف رحلاتنا المميزة</h6>
+                    <h2 class="ttl-40 fw-bold py-3 text-uppercase pb-3">أحدث الأخبار والمقالات
                     </h2>
                 </div>
                 <div class="col-lg-6">
                     <div class="box d-flex my-3">
                         <div class="left">
-                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-1.png">
+                            <img class="w-100 h-100" src="https://www.alkhaleej.ae/sites/default/files/styles/d10_standard/public/2024-08/6247919.jpg.webp?h=e5efe829&itok=LT4usuTO">
                         </div>
                         <div class="right">
-                            <h6>الخميس 29 أغسطس 2024 | أخبار
-                            </h6>
-                            <h5 class="fw-bold">"لا يُنسى الأطفال في الحافلات": كيف تكثف شركة النقل في الإمارات العربية
-                                المتحدة أعمالها؟
-                                سلامة الطالب
-
-                            </h5>
-                            <a href="" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="box d-flex my-3">
-                        <div class="left">
-                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-2.png">
-                        </div>
-                        <div class="right">
-                            <h6>13 يوليو 2024 | أخبار
-                            </h6>
-                            <h5 class="fw-bold">وزارة الطاقة والبنية التحتية بدولة الإمارات العربية المتحدة، مواصلات
-                                الإمارات
-                                دعم التنقل الأخضر
-                            </h5>
-                            <a href="" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >>
-                            </a>
+                            <h6>27 أغسطس 2024</h6>
+                            <h5 class="fw-bold">مواصلات الإمارات تنجز فحص 7600 حافلة مدرسية</h5>
+                            <a href="https://www.alkhaleej.ae/2024-08-27/%D9%85%D9%88%D8%A7%D8%B5%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AA%D9%86%D8%AC%D8%B2-%D9%81%D8%AD%D8%B5-7600-%D8%AD%D8%A7%D9%81%D9%84%D8%A9-%D9%85%D8%AF%D8%B1%D8%B3%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D8%A7%D8%B1" target="_blank" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
                         </div>
                     </div>
                 </div>
@@ -240,32 +215,34 @@ include('../includes/header-ar.php');
                             <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-3.png">
                         </div>
                         <div class="right">
-                            <h6>26 أبريل 2024 | أخبار
-                            </h6>
-                            <h5 class="fw-bold">وزارة الطاقة والبنية التحتية، مواصلات الإمارات لدعم
-                                التنقل الأخضر
-
-                            </h5>
-                            <a href="" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >>
-                            </a>
+                            <h6> 12 يوليو 2024</h6>
+                            <h5 class="fw-bold">الإمارات توسع شبكة شحن المركبات الكهربائية من خلال شراكة جديدة مع “مواصلات الإمارات” ضمن مستهدفاتها لاعتماد المركبات الكهربائية بنسبة 50 في المئة بحلول 2050</h5>
+                            <a href="https://economymiddleeast.com/ar/news/%D9%85%D9%88%D8%A7%D8%B5%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A6%D9%8A/" target="_blank" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="box d-flex my-3">
                         <div class="left">
-                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-4.png">
+                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/mro.jpg">
                         </div>
                         <div class="right">
-                            <h6>25 أغسطس 2024 | أخبار
-                            </h6>
-                            <h5 class="fw-bold">تستعد مدارس الإمارات العربية المتحدة لحركة المرور يوم الاثنين حيث تخطط
-                                الشرطة لإرسال المزيد
-                                وحدات الدورية
-
+                            <h6>10 مارس 2022</h6>
+                            <h5 class="fw-bold">900 مركبة حولتها مواصلات الإمارات للعمل بالغاز الطبيعي 2021</h5>
+                            <a href="https://www.albayan.ae/uae/news/2022-03-14-1.4391409" target="_blank" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box d-flex my-3">
+                        <div class="left">
+                            <img class="w-100 h-100" src="https://assets.wam.ae/resource/uploads/2017/11/large-47009833526069.jpg">
+                        </div>
+                        <div class="right">
+                            <h6>6 نوفمبر 2017</h6>
+                            <h5 class="fw-bold">مواصلات الإمارات تسير أول حافلة مدرسية تعمل بالطاقة الكهربائية إقليميا
                             </h5>
-                            <a href="" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >>
-                            </a>
+                            <a href="https://www.wam.ae/ar/article/hszr62ut-%D9%85%D9%88%D8%A7%D8%B5%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AA%D8%B3%D9%8A%D8%B1-%D8%A3%D9%88%D9%84-%D8%AD%D8%A7%D9%81%D9%84%D8%A9-%D9%85%D8%AF%D8%B1%D8%B3%D9%8A%D8%A9-%D8%AA%D8%B9%D9%85%D9%84" target="_blank" class="py-2 px-3 mt-3 text-end d-block">عرض المزيد >></a>
                         </div>
                     </div>
                 </div>
@@ -288,11 +265,9 @@ include('../includes/header-ar.php');
                             </div>
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
-                                    <h4>تطبيقات ET</h4>
-                                    <h1 class="text-primary fw-bold">حافالتي</h1>
-                                    <p>مواصلات الإمارات، بالتعاون مع مؤسسة مدارس الإمارات،
-                                        أطلقت تطبيقًا ذكيًا مطلع عام 2023 لأولياء أمور طلاب المدارس الحكومية.
-                                    </p>
+                                    <h4>تطبيقات موصلات الإمارات</h4>
+                                    <h1 class="text-primary fw-bold">حافلتي</h1>
+                                    <p>أطلقت مواصلات الإمارات، بالتعاون مع مؤسسة الإمارات للتعليم المدرسي، تطبيقًا ذكيًا في أوائل عام 2023 لأولياء أمور طلبة المدارس الحكومية.</p>
                                     <a href="https://apps.apple.com/ae/app/hafilaty-%D8%AD%D8%A7%D9%81%D9%84%D8%AA%D9%89/id1487966163" class="btn btn-primary mt-3"><svg id="Layer_2"
                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.78 24.3">
                                             <defs>
@@ -338,8 +313,8 @@ include('../includes/header-ar.php');
                             </div>
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
-                                    <h4>تطبيقات ون إيت</h4>
-                                    <h1 class="text-primary fw-bold">تطبيقات ون إيت</h1>
+                                    <h4>تطبيقات مواصلات الإمارات</h4>
+                                    <h1 class="text-primary fw-bold">OneET</h1>
                                     <p>يتيح تطبيق <strong>OneET</strong> لعملاء مواصلات الإمارات وشركائها إمكانية الوصول للخدمات والوظائف عبر الهاتف المحمول، مما يبسط العمليات ويعزز السلامة من خلال تجربة مريحة ومرنة.
                                     </p>
                                     <a href="https://apps.apple.com/ae/app/oneet/id1541525393" class="btn btn-primary mt-3"><svg id="Layer_2"

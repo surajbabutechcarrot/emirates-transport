@@ -479,3 +479,48 @@ textarea.form-control{
   color: white;
   background: black;
 }
+
+.about{
+  picture{
+    overflow: hidden;
+    position: relative;
+    &:after{
+      top: 0;
+      left: 0;
+      position: absolute;
+      content: '';
+      height: 100%;
+      width: 100%;
+      background: $primary-color;
+      transition:all 0.6s;
+    }
+    &.active{
+      &:after{
+        height: 0;
+      }
+    }
+  }
+}
+.gsap-marker-scroller-start, .gsap-marker-scroller-end, .gsap-marker-end, .gsap-marker-start{
+  display: none!important;
+}
+.app-slider{
+  .slick-arrow{
+    // display: none!important;
+  }
+  .slick-slide{
+    .slide-1-one, .slide-1-two, .slide-1-three, .slide-2-one, .slide-2-two, .slide-2-three{
+      max-width: 30%;
+    }
+  }
+}
+.slick-dots {
+  display: block !important;
+  bottom: 10px; /* Adjust as needed */
+  text-align: center;
+}
+
+.slick-dots li button:before {
+  color: #000; /* Dot color */
+  font-size: 12px;
+}

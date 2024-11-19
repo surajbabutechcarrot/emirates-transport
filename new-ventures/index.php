@@ -20,7 +20,7 @@ include('../includes/header.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 m-auto text-center">
-                    <h2 class="fw-bold text-center text-uppercase ttl-40 text-black">Through innovation and strategic partnerships, we deliver sustainable, zero-emission transportation & leasing solutions, driving Emirates Transport's long-term growth in the mobility sector.</h2>
+                    <h2 class="fw-bold text-center ttl-30 text-black">Through innovation and strategic partnerships, we deliver sustainable, zero-emission transportation & leasing solutions, driving Emirates Transport's long-term growth in the mobility sector.</h2>
                 </div>
             </div>
     </section>

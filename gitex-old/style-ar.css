@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Bahij_TheSansArabic-Plain;
+    src: url(assets/fonts/Bahij_TheSansArabic-Plain.ttf);
+}
+@font-face {
+    font-family: Bahij_TheSansArabic-Bold;
+    src: url(assets/fonts/Bahij_TheSansArabic-Bold.ttf);
+}
+
+
+body.rtl body.page-template-template-landing_v1, 
+body.rtl p, 
+body.rtl li, 
+body.rtl a,
+body.rtl .quotes-section-content h5,
+body.rtl .press-each h3 {
+    font-family: Bahij_TheSansArabic-Plain;
+}
+body.rtl .hero-banner h1,
+body.rtl .info-box-date,
+body.rtl .info-box-location,
+body.rtl .each-box-section h3,
+body.rtl .quotes-section-content h2,
+body.rtl h2.sub-titles,
+body.rtl .marquee-section-outer h2,
+body.rtl .contact-section input.wpcf7-form-control.wpcf7-submit,
+body.rtl .contact-section > h2{
+    font-family: Bahij_TheSansArabic-Bold;
+}
+body.rtl .contact-section input[type=email], 
+body.rtl .contact-section input[type=number], 
+body.rtl .contact-section input[type=password], 
+body.rtl .contact-section input[type=tel], 
+body.rtl .contact-section input[type=text], 
+body.rtl select, 
+body.rtl textarea{
+    text-align: right;
+    font-family: Bahij_TheSansArabic-Plain;
+}
+body.rtl .contact-section select {
+    background-position: 3% center;
+}
+body.rtl .down-arrow {
+    left: auto;
+    right: 5%;
+}
+body.rtl .info-box-date, 
+body.rtl .info-box-location {
+    background-position: right center;
+    padding-left: 0;
+    padding-right: 105px;
+}
+body.rtl .marquee-section-outer {
+    direction: ltr;
+}
+body.rtl .quotes-section > img {
+    right: auto;
+    left: 40px;
+}
+body.rtl .right-to-left-arrow {
+    right: auto;
+    left: -2%;
+}
+body.rtl .contact-row {
+    direction: rtl;
+}
+body.rtl .left-to-right-arrow {
+    left: auto;
+    right: 5%;
+    transform: rotate(180deg);
+}
+body.rtl .press-each span.postdate {
+    padding-left: 0;
+    padding-right: 40px;
+    background-position: right;
+}
+
+
+body.rtl .line-bg-1 {
+    background-image: url(assets/images/lines-1-ar.png);
+    left: auto;
+    right: 0;
+    background-position: right top;
+}
+body.rtl .line-bg-2 {
+    background-image: url(assets/images/lines-2-ar.png);
+    background-position: left bottom;
+    right: auto;
+    left: 0;
+}
+
+
+
+@media (max-width:1680px) {
+    body.rtl .down-arrow {
+        left: auto;
+        right: 2%;
+    }
+}
+
+@media (max-width:1466px) {
+    body.rtl .down-arrow {
+        right: 1.2%;
+    }
+}
+
+@media (max-width:1199px) {
+    body.rtl .press-each span.postdate {
+        padding-right: 30px;
+    }
+}
+
+@media only screen and ( max-width: 768px) {
+    body.rtl h2.sub-titles::after {
+        left: auto;
+        right: 0;
+    }
+}

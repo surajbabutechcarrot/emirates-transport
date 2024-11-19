@@ -67,14 +67,14 @@ $(document).ready(function () {
         dots: true,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 3000,
         // rtl: true  // Enable RTL mode
     });
     $('.slider-app-ar').slick({
         dots: true,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 3000,
         rtl: true  // Enable RTL mode
     });
     $('.mission-slider').slick({

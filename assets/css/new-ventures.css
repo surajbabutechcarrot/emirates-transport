@@ -1,10 +1,11 @@
 /* new-ventures.php css */
 
 .venture-start {
-    background: #1f665b;
+    background-image: url(../images/new-venture.jpg);
     color: #fff;
+    background-size: cover;
+    background-position: center;
 }
-
 .venture-start .btn {
     color: #fff;
     border-color: #fff;

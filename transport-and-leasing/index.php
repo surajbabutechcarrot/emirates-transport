@@ -7,7 +7,7 @@ include('../includes/header.php');
     <section class="inner-banner blueoverlay three pt-0 d-flex align-items-center">
         <div class="container-fluid">
             <div class="banner-content text-center text-uppercase">
-                <h1 class="fw-bold text-white underline">transport & leasing</h1>
+                <h1 class="fw-bold text-white">transport & leasing</h1>
                 <img class="bg" src="<?php echo $path; ?>assets/images/leasing_banner.jpg" alt="image description">
             </div>
         </div>
@@ -16,7 +16,7 @@ include('../includes/header.php');
     <!-- Services start -->
     <section class="leasing-services">
         <div class="container pt-5">
-            <h2 class="fw-bold text-center text-uppercase ttl-40 text-black">Discover unparalleled comfort & exceptional efficiency with our cutting-edge technology and innovation, providing the most advanced 360-degree fleet management for a truly seamless and forward-thinking experience.</h2>
+            <h2 class="fw-bold text-center ttl-30">Experience unmatched comfort and efficiency with our advanced 360-degree fleet management technology for a seamless, innovative experience. </h2>
         </div>
         <div class="service-wrap container std-space">
             <h2 class="fw-bold text-center text-uppercase ttl-40 text-black">Our services</h2>
@@ -53,7 +53,8 @@ include('../includes/header.php');
                     <div class="d-flex">
                         <div class="leasingimg">
                             <img src="<?php echo $path; ?>assets/images/leasing4.jpg" alt="image description">
-                            <p>LAST MILE DELIVERY SOLUTIONS</p>
+                            <!-- <p>LAST MILE DELIVERY SOLUTIONS</p> -->
+                             <p>limousine</p>
                         </div>
                         <div class="leasingimg">
                             <img src="<?php echo $path; ?>assets/images/leasing5.jpg" alt="image description">
@@ -79,11 +80,11 @@ include('../includes/header.php');
                     <div class="d-flex">
                         <div class="leasingimg">
                             <img src="<?php echo $path; ?>assets/images/leasing77.jpg" alt="image description">
-                            <p>STAFF TRANSPORTATION</p>
+                            <p>Electric Vehicles Leasing</p>
                         </div>
                         <div class="leasingimg">
                             <img src="<?php echo $path; ?>assets/images/leasing8.jpg" alt="image description">
-                            <p>STAFF TRANSPORTATION</p>
+                            <p>Last Mile Delivery Solutions</p>
                         </div>
                     </div>
                 </div>
@@ -110,7 +111,9 @@ include('../includes/header.php');
                 </div>
                 <div class="col-md-5 my-auto pt-5 pt-md-0">
                     <h2 class="ttl-40 text-black fw-bold text-uppercase mb-4">Our green fleet</h2>
-                    <p>At the core of every operation,<br> our services drive success.</p>
+                    <p>Emirates Transport is committed to a sustainable future with
+our growing green fleet, reducing emissions and promoting
+eco-friendly transportation solutions across the UAE.</p>
                     <div class="d-flex mt-4 gap-5 mb-4 mb-md-0">
                         <div>
                             <span class="ttl-lg fw-semi-bold">100+</span>

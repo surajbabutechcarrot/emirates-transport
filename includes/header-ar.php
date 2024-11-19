@@ -14,27 +14,41 @@
     <link rel="icon" href="<?php echo $path; ?>assets/images/favicon.png" sizes="32x32">
     <link rel="icon" href="<?php echo $path; ?>assets/images/favicon.png" sizes="192x192">
     <link rel="apple-touch-icon" href="<?php echo $path; ?>assets/images/favicon.png">
+
+    <meta name="description" content="شركة الإمارات العامة للنقل والخدمات، المعروفة عمومًا باسم مواصلات الإمارات، تُعتبر رائدة في صناعة النقل والخدمات، حيث تمتلك إرثًا مميزًا يمتد لـ 43 عامًا من التميز. ">
+    <?php $ogImageURL = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'].'/assets/images/features-image.png'; ?>
+    <meta property="og:image" content="<?php echo $ogImageURL; ?>">
+    <style>
+        .brand-tab .tab-content .tab-pane{
+            height: auto !important;
+        }
+        .tabcounter div:last-child{
+            padding-right:15px!important;
+        }
+    </style>
 </head>
 
 <body>
+
+
     <header class="main-header">
         <div class="container h-100 d-flx flx-vcenter">
             <div class="logo">
                 <a href="<?php echo $path; ?>ar/">
-                    <img src="<?php echo $path; ?>assets/images/logo.svg" alt="Emirates Transport">
+                    <img src="<?php echo $path; ?>assets/images/footer-logo.svg" alt="Emirates Transport">
                 </a>
             </div>
             <div class="header-right mr-auto d-flx flx-vcenter">
                 <nav class="main-nav">
                     <ul>
-                        <li><a class="active" href="<?php echo $path; ?>ar/">بيت</a></li>
-                        <li><a href="<?php echo $path; ?>about/ar/">معلومات عنا</a></li>
+                        <li><a class="active" href="<?php echo $path; ?>ar/">الرئيسية</a></li>
+                        <li><a href="<?php echo $path; ?>about/ar/">عن مواصلات الإمارات</a></li>
                         <li class="submenu"><a href="#">خدمات</a>
                         <ul>
-                            <li><a href="<?php echo $path; ?>maintanance/ar/">صيانة</a></li>
-                            <li><a href="<?php echo $path; ?>new-ventures/ar/">مشاريع جديدة</a></li>
+                            <li><a href="<?php echo $path; ?>transport-and-leasing/ar/">النقل والتأجير</a></li>
                             <li><a href="<?php echo $path; ?>school-transport/ar/">النقل المدرسي</a></li>
-                            <li><a href="<?php echo $path; ?>transport-and-leasing/">النقل والتأجﻴﺮ</a></li>
+                            <li><a href="<?php echo $path; ?>maintanance/ar/">الخدمات الفنية</a></li>
+                            <li><a href="<?php echo $path; ?>new-ventures/ar/">مشاريع جديدة</a></li>
                         </ul>
                     </li>
                         <li><a href="<?php echo $path; ?>media/ar/">وسائط</a></li>

@@ -9,6 +9,8 @@
 .banner{
     height: calc(100vh - 100px);
     background: url('../images/banner1.png') no-repeat center center;
+    max-width: 100%;
+    overflow: hidden;
     @include max(1199.98){
         height: calc(100vh - 80px);
     }
@@ -18,8 +20,10 @@
         top: 0;
         width: 100%;
         height: 100%;
+        overflow: hidden;
         object-fit: cover;
         z-index: -1;
+        transform: scale(1);
     }
     &::before{
         position: absolute;
@@ -27,7 +31,7 @@
         top: 0;
         width: 100%;
         height: 100%;
-        background: rgba(0,0,0,0.34);
+        // background: rgba(0,0,0,0.34);
         content: "";
     }
     h1{
@@ -70,6 +74,14 @@
         }
     }
 }
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(2px);
+    }
+  }
 .services{
     background: #eff0f3;
     .box{
@@ -86,6 +98,11 @@
                     max-width: size(60);
                 }
             }
+            a{
+                img{
+                    animation: scroll .35s ease-in alternate infinite;
+                }
+            }
             h4{
                 max-width: 160px;
             }
@@ -93,6 +110,7 @@
         .right{
             max-width: 40%;
             width: 100%;
+            overflow: hidden;
             img{
                 height: size(250);
                 object-fit: cover;
@@ -110,9 +128,10 @@
         .left{
             max-width: 35%;
             width: 100%;
+            overflow: hidden;
             img{
                 object-fit: cover;
-                object-position: center;
+                object-position: center right;
             }
         }
         .right{
@@ -122,6 +141,7 @@
             padding-bottom: size(20);
             padding-left: size(15);
             padding-right: size(15);
+            overflow: hidden;
             @include max(991.98){
                 padding-top: size(30);
             }
@@ -134,9 +154,12 @@
     }
 }
 .slider-app, .slider-app-ar{
-        
+    .col-lg-7{
+        position: relative;
+    }
     .slick-track{
-        
+        display: flex;
+        align-items: center;
     }
     .slick-list{
         background: #E6E6E7;
@@ -167,6 +190,7 @@
         justify-content: center;
         align-items: center;
         margin: 40px 0 40px 0;
+        text-align: center;
         li{
             list-style: none;
             margin: 0 10px;
@@ -194,6 +218,79 @@
                 &::before{
                     background: $primary-color;
                 }
+            }
+        }
+    }
+    .slick-slide{
+        .slide-1-one{
+            margin : 80px 40px 80px auto;
+        }
+        .slide-1-two, .slide-1-three{
+           position: absolute; 
+           right: 0;
+           top: 0;
+           transition: all 0.7s cubic-bezier(0.25, 0.1, 0.25, 1); 
+           opacity: 0;
+        }
+
+        .slide-2-one{
+            margin : 80px 40px 80px auto;
+        }
+        .slide-2-two, .slide-2-three{
+           position: absolute; 
+           right: 0;
+           top: 0;
+           transition: all 0.7s cubic-bezier(0.25, 0.1, 0.25, 1); 
+           opacity: 0;
+        }
+        h4, h1, p, a {
+            opacity: 0; /* Initial opacity */
+            transform: translateY(20px); /* Start slightly below */
+            transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out; /* Apply transition to both properties */
+            margin-top: size(40)!important; /* Original margin */
+        }
+        
+        &.slick-active {
+            .slide-1-two {
+                right: 25%;
+                top: 2%;
+                opacity: 1;
+            }
+            .slide-1-three {
+                right: 50%;
+                top: size(50);
+                opacity: 1;
+            }
+            .slide-2-two {
+                right: 25%;
+                top: 2%;
+                opacity: 1;
+            }
+            .slide-2-three {
+                right: 50%;
+                top: size(50);
+                opacity: 1;
+            }
+            h4, h1, p, a {
+                opacity: 1; /* Fade-in */
+                transform: translateY(0); /* Move to original position */
+                margin-top: size(0)!important; /* Reset margin */
+        
+                /* Add transition delays */
+                transition-delay: 0.2s; /* Adjust delay time as needed */
+            }
+            
+            h4 {
+                transition-delay: 0.2s; /* 0.2s delay for h4 */
+            }
+            h1 {
+                transition-delay: 0.4s; /* 0.4s delay for h1 */
+            }
+            p {
+                transition-delay: 0.6s; /* 0.6s delay for p */
+            }
+            a {
+                transition-delay: 0.8s; /* 0.8s delay for a */
             }
         }
     }

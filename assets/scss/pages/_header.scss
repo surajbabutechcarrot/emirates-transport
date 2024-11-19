@@ -10,6 +10,9 @@
     @include max(1199.98){
         height: size(80);
     }
+    @include min(1199.98){
+        animation: menu-close-anim 0.5s forwards; 
+    }
     .logo{
         width: 100%;
         max-width: size(200);
@@ -50,5 +53,35 @@
 
     to {
         transform: translateY(0)
+    }
+}
+@keyframes menu-close-anim {
+    0% {
+        transform: translateY(-86px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+header{
+    .logo{
+        position: relative;
+        height: size(68);
+        a{
+            width: 100%;
+            display: flex;
+        }
+        .logo-text{
+            // width: size(0);
+            max-width: size(120)!important;
+            @include max(1199.98){
+                max-width: size(105)!important;
+            }
+        }
+        .round-logo{
+            width: size(80);
+            height: size(70);
+            // transition: ease-in-out 0.4s;
+        }
     }
 }

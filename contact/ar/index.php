@@ -7,7 +7,7 @@ include('../../includes/header-ar.php');
     <section class="inner-banner contact pt-0 d-flex align-items-center">
         <div class="container-fluid">
             <div class="banner-content text-center text-uppercase">
-                <h1 class="fw-bold text-white">اتصل بنا</h1>
+                <h1 class="fw-bold text-white">تواصــل معــنــا</h1>
                 <img class="bg" src="<?php echo $path; ?>assets/images/contact-banner.png" alt="image description">
             </div>
         </div>
@@ -17,53 +17,57 @@ include('../../includes/header-ar.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="fw-bold text-center text-uppercase ttl-60 text-primary">هل تريد معرفة المزيد؟
-                    </h2>
+                    <h2 class="fw-bold text-center text-uppercase ttl-60 text-primary">هل ترغب في معرفة المزيد؟</h2>
                 </div>
 
-                <form action="./" method="post">
+
+                <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D3z000000eGDP" method="POST">
+                <input type=hidden name="oid" value="00D3z000000eGDP">
+                <?php $homeURL = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>
+                <input type=hidden name="retURL" value="<?php echo $homeURL; ?>?lead=success">
                 <div class="box-bg row">
                     <div class="col-lg-6 col-6">
                         <div class="mb-3 mt-5">
-                            <input name="first_name" type="text" class="form-control" id="exampleFormControlInput1"
-                                placeholder="الاسم الأول*" required>
+                            <input id="first_name" maxlength="40" name="first_name" size="20" type="text" placeholder="الاسم الأول*"  class="form-control" required/>
                         </div>
                     </div>
                     <div class="col-lg-6 col-6">
                         <div class="mb-3 mt-5">
-                            <input name="last_name" type="text" class="form-control" id="exampleFormControlInput1"
-                                placeholder="اسم العائلة*" required>
+                            <input  id="last_name" maxlength="80" name="last_name" size="20" type="text" placeholder="اسم العائلة*" class="form-control" required/>
                         </div>
                     </div>
                     <div class="col-lg-6 col-6">
                         <div class="mb-3 mt-5">
-                            <input name="email" type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="بريدك الإلكتروني *" required>
+                            <input id="email" maxlength="80" name="email" size="20" type="email" placeholder="بريدك الإلكتروني *" class="form-control" required/>
                         </div>
                     </div>
                     <div class="col-lg-6 col-6">
                         <div class="mb-3 mt-5">
-                            <input name="subject" type="text" class="form-control" id="exampleFormControlInput1" placeholder="موضوع" required>
+                            <input  id="00N3z00000DD4rC" maxlength="100" name="00N3z00000DD4rC" size="20" type="text" placeholder="الموضوع" class="form-control"/>
                         </div>
                     </div>
                     <div class="col-lg-12 col-12">
                         <div class="mb-3 mt-5">
-                            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="4"
-                                placeholder="رسالتك" required></textarea>
+                            <textarea name="description" placeholder="رسالتك" rows="4" class="form-control" required></textarea>
                         </div>
                     </div>
                     <div class="col-lg-12 col-12 text-center">
                         <div class="mb-3 mt-5">
-                            <input type="submit" name="submit" class="btn btn-primary py-3 px-4 mt-3" value="يُقدِّم">
+                            <input  type="hidden"  id="lead_source" maxlength="40" name="lead_source" size="20" type="text" value="Website"/>
+                            <input type="hidden"  id="recordType" maxlength="40" name="recordType" size="20" type="text" value="012Sl000001z9ll"/>
+                            <input type="hidden"  id="OwnerId" maxlength="40" name="OwnerId" size="20" type="text" value="00G8E000007ZrgTUAS"/>
+
+                            <input type="submit" name="submit" class="btn btn-primary py-3 px-4 mt-3" value="إرســــال">
                         </div>
                     </div>
                 </div>
                 </form>
-                <?php 
-                $lang = "ar";
-                include_once('../phpmail.php'); 
-                ?>
 
+                <?php 
+				if(isset($_GET['lead']) && $_GET['lead'] == "success"):
+					echo '<div class="alert alert-success alert-dismissible fade show" role="alert">لقد تلقينا استفسارك. سوف نعود إليك في أسرع وقت ممكن.<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>';
+				endif;
+				?>
                 
                 <div class="box-bg row">
                     

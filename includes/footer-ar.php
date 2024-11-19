@@ -8,7 +8,7 @@
                 <hr>
             </div>
             <div class="col-lg-6 order-md-2 order-2 pt-0 pt-lg-0 pt-4 order-lg-1">
-                <p>© 2024 Emirates Transport. All Rights Reserved.</p>
+                <p>جميع الحقوق محفوظة لمواصلات الإمارات © 2024</p>
             </div>
             <div class="col-lg-6 order-lg-2 order-md-1 order-1">
             <ul class="social d-flex align-items-center">
@@ -77,7 +77,7 @@
                                         d="m13.13,15.55c-.49,0-.97-.16-1.24-.32-.52-.31-.59-.73-.59-.96v-7.29c0-.23.08-.66.61-.97.43-.25,1.35-.47,1.93-.14l6.87,3.73c.41.23.88.71.87,1.31,0,.39-.21.73-.56.92l-.03.02-7.2,3.55c-.17.09-.4.14-.66.14Zm-.02-9.56c-.4,0-.82.12-1.07.27-.41.24-.47.56-.47.74v7.29c0,.17.06.49.46.73.23.13.67.28,1.1.28.22,0,.4-.04.54-.11l7.2-3.55c.28-.15.44-.41.44-.7,0-.51-.46-.92-.73-1.07l-6.87-3.73c-.17-.09-.38-.13-.6-.13Zm.05,8.14h0s0,0,0,0c-.09,0-.2-.01-.31-.04l-.1-.02v-6.85l.1-.02c.07-.02.18-.05.3-.04v-.02s0,.02,0,.02h0l.06.02,6.7,3.64-6.74,3.32h0Zm-.16-.29s.08.01.11.01l6.21-3.06-6.22-3.38s-.06,0-.1.01v6.41Z" />
                                 </g>
                             </svg></a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/channel/UC5lus29b6IsRoypsDu9ZYFg">
+                    <li><a target="_blank" href="https://www.linkedin.com/company/emirates-transport">
 
                             <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.85 27.78">
                                 <defs>

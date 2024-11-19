@@ -1,25 +1,25 @@
 <?php 
 $path = "root";
-include('includes/header.php');
+include('includes/header-anim.php');
 ?>
 <main class="home-page">
     <!-- Banner section start -->
     <section class="banner">
-        <video width="" height="" poster="assets/images/banner1.png" autoplay muted loop>
-            <source src="assets/images/banner.mp4" type="video/mp4">
-            </source>
-
-        </video>
+    <video width="" height="" autoplay muted loop>
+    <source src="assets/images/banner.mp4" type="video/mp4">
+    
+    <p>Your browser does not support HTML5 video.</p>
+</video>
         <div class="container h-100">
             <div class="row h-100">
                 <article class="col-lg-12 h-100 d-flex align-items-center justify-content-center">
                     <div class="text text-center text-white">
-                        <img class="round" src="assets/images/round.svg" alt="">
+                        <!-- <img class="round" src="assets/images/round.svg" alt=""> -->
                         <div class="story">
                             <div class="content m-auto">
-                                <h6>Welcome to Emirates Transport</h6>
+                                <!-- <h6>Welcome to Emirates Transport</h6>
                                 <h1 class="mb-5 text-uppercase">We are your journey</h1>
-                                <a class="play mt-5" data-toggle="modal" data-target=".bd-example-modal-lg" href="">
+                                <a class="play mt-0" data-toggle="modal" data-target=".bd-example-modal-lg" href="">
                                     <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63.46 63.46">
                                         <defs>
                                             <style>
@@ -41,7 +41,7 @@ include('includes/header.php');
                                             </g>
                                         </g>
                                     </svg>
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                     </div>
@@ -167,29 +167,29 @@ include('includes/header.php');
     <!-- Fleet numbers section start -->
     <section class="std-space feet">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row animm">
                 <div class="col-lg-12 text-center text-white">
                     <p>Discover Our Empowering Journeys</p>
                     <h3 class="fw-bold text-uppercase">Our Fleet in Numbers</h3>
                 </div>
                 <div class="col text-white text-center py-5">
-                    <h2 class="fw-bold">14,000+</h2>
+                    <h2 class="fw-bold"><span class="counterOne" data-number="14000">0</span>+</h2>
                     <h5 class="text-uppercase mb-0">cars</h5>
                 </div>
                 <div class="col text-white text-center py-5">
-                    <h2 class="fw-bold">12,000+</h2>
+                    <h2 class="fw-bold"><span class="counterTwo" data-number="12000">0</span>+</h2>
                     <h5 class="text-uppercase mb-0">buses</h5>
                 </div>
                 <div class="col text-white text-center py-5">
-                    <h2 class="fw-bold">700+</h2>
+                    <h2 class="fw-bold"><span class="counterThree" data-number="700">0</span>+</h2>
                     <h5 class="text-uppercase mb-0">trucks</h5>
                 </div>
                 <div class="col text-white text-center py-5">
-                    <h2 class="fw-bold">50+</h2>
+                    <h2 class="fw-bold"><span class="counterThree" data-number="50">0</span>+</h2>
                     <h5 class="text-uppercase mb-0">e-bikes</h5>
                 </div>
                 <div class="col text-white text-center py-5">
-                    <h2 class="fw-bold">820 +</h2>
+                    <h2 class="fw-bold"><span class="counterThree" data-number="820">0</span>+</h2>
                     <h5 class="text-uppercase mb-0">happy clients</h5>
                 </div>
             </div>
@@ -207,55 +207,51 @@ include('includes/header.php');
                 <div class="col-lg-6">
                     <div class="box d-flex my-3">
                         <div class="left">
-                            <img class="w-100 h-100" src="assets/images/news-1.png">
-                        </div>
-                        <div class="right">
-                            <h6>Thu 29 Aug 2024 | News</h6>
-                            <h5 class="fw-bold">No children 'forgotten on buses': How UAE transport firm is ramping up
-                                student safety
-                            </h5>
-                            <a href="" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="box d-flex my-3">
-                        <div class="left">
-                            <img class="w-100 h-100" src="assets/images/news-2.png">
-                        </div>
-                        <div class="right">
-                            <h6>Jul 13, 2024 | News</h6>
-                            <h5 class="fw-bold">UAE's Ministry of Energy and Infrastructure, Emirates Transport to
-                                support green mobility</h5>
-                            <a href="" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="box d-flex my-3">
-                        <div class="left">
-                            <img class="w-100 h-100" src="assets/images/news-3.png">
-                        </div>
-                        <div class="right">
-                            <h6>April 26, 2024 | News</h6>
-                            <h5 class="fw-bold">Ministry of Energy and Infrastructure, Emirates Transport to support
-                                green mobility
-                            </h5>
-                            <a href="" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="box d-flex my-3">
-                        <div class="left">
-                            <img class="w-100 h-100" src="assets/images/news-4.png">
+                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-4.png">
                         </div>
                         <div class="right">
                             <h6>August 25, 2024 | News</h6>
                             <h5 class="fw-bold">UAE schools brace for Monday traffic as police plan to send out extra
                                 patrol units
                             </h5>
-                            <a href="" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                            <a href="https://www.thenationalnews.com/news/uae/2024/08/25/uae-schools-brace-for-monday-traffic-as-police-plan-to-send-out-extra-patrol-units/" target="_blank" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box d-flex my-3">
+                        <div class="left">
+                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/maxresdefault.jpg">
+                        </div>
+                        <div class="right">
+                            <h6>June 20, 2024 | News</h6>
+                            <h5 class="fw-bold">CIO Leadership Live Middle East with Jarrod Brown, IT Director, Emirates Transport</h5>
+                            <a href="https://www.cio.com/video/2188796/cio-leadership-live-middle-east-with-jarrod-brown-it-director-emirates-transport.html" target="_blank" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box d-flex my-3">
+                        <div class="left">
+                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-2.png">
+                        </div>
+                        <div class="right">
+                            <h6>July 13, 2024 | News</h6>
+                            <h5 class="fw-bold">100 new EV charging stations to be installed in UAE this year </h5>
+                            <a href="https://gulfnews.com/uae/transport/100-new-ev-charging-stations-to-be-installed-in-uae-this-year-1.103493848" target="_blank" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box d-flex my-3">
+                        <div class="left">
+                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-3.png">
+                        </div>
+                        <div class="right">
+                            <h6>Jul 12, 2024 | News</h6>
+                            <h5 class="fw-bold">Ministry of Energy and Infrastructure, Emirates Transport to support green mobility 
+                            </h5>
+                            <a href="https://www.wam.ae/article/140g6lq-ministry-energy-and-infrastructure-emirates" target="_blank" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
                         </div>
                     </div>
                 </div>
@@ -274,7 +270,10 @@ include('includes/header.php');
                     <div class="w-100 slider-app">
                         <div class="row">
                             <div class="col-lg-7">
-                                <img src="assets/images/mobile-app.png" alt="">
+                                <!-- <img src="assets/images/mobile-app.png" alt=""> -->
+                                <img class="slide-1-one" src="assets/images/mobile-app-1-1.png" alt="">
+                                <img class="slide-1-two" src="assets/images/mobile-app-1-2.png" alt="">
+                                <img class="slide-1-three" src="assets/images/mobile-app-1-3.png" alt="">
                             </div>
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">
@@ -323,7 +322,9 @@ include('includes/header.php');
                         </div>
                         <div class="row">
                             <div class="col-lg-7">
-                                <img src="assets/images/mobile-app-2.png" alt="">
+                                <img class="slide-2-one" src="assets/images/mobile-app-2-1.png" alt="">
+                                <img class="slide-2-two" src="assets/images/mobile-app-2-2.png" alt="">
+                                <img class="slide-2-three" src="assets/images/mobile-app-2-3.png" alt="">
                             </div>
                             <div class="col-lg-5 d-flex align-items-center">
                                 <div class="text">

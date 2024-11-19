@@ -336,7 +336,7 @@ include('../includes/header.php');
                     <div class="col-sm-12 col-xs-12 col-md-12 col-lg-7 col d-flex align-items-center">
                         <div class="text w-100 p-5">
                             <h3 class="fw-bold text-primary text-uppercase">Faryal Tawakul</h3>
-                            <h5>Executive Vice President</h5>
+                            <h5>Deputy CEO</h5>
                             <p>A key figure in transforming the UAE's transportation sector. With over 20 years of
                                 experience, she leads groundbreaking innovations and sustainability initiatives. Her
                                 focus on green transportation, such as implementing EV charging infrastructure, aligns

@@ -210,6 +210,7 @@ include('../includes/header.php');
                                     <h1 class="fw-bold text-uppercase text-primary">OneET</h1>
                                     <!-- <p>Emirates Transport, in collaboration with the Emirates Schools Establishment,
                                         launched a smart app in early 2023 for parents of public-school students. </p> -->
+                                        <p>The <strong>OneET App</strong> offers mobile access for Emirates Transport's customers and partners, simplifying operations and enhancing safety with a user-friendly experience.</p>
                                     <a target="_blank" href="https://apps.apple.com/ae/app/oneet/id1541525393"
                                         class="btn btn-primary mt-3"><svg id="Layer_2"
                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.78 24.3">

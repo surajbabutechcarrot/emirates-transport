@@ -9,19 +9,14 @@ include('../includes/header.php');
         <div class="container">
             <div class="row w-100 rounded-20 white-bg overflow-hidden">
                 <div class="col-lg-5 position-relative">
-                    <img class="media-main-img" src="<?php echo $path; ?>assets/images/media-left.png">
+                    <img class="media-main-img" src="<?php echo $path; ?>assets/images/news-1.png">
                 </div>
                 <div class="col-lg-7 white-bg d-flex align-items-center">
                     <div class="text p-5">
-                        <h4 class="fw-bold text-primary">Thu 29 Aug 2024 </h4>
-                        <h3 class="text-black ttl-40 fw-bold">Ministry of Energy and Infrastructure, Emirates Transport
-                            to support green mobility</h3>
-                        <p>ABU DHABI, 12th July, 2024 (WAM) -- The Ministry of Energy and Infrastructure (MoEI),
-                            represented by UAEV, and Emirates Transport will cooperate in installing and operating EV
-                            charging stations at Emirates Transport buildings The move aligns with UAEV’s mission of
-                            supporting the shift to green mobility and contributing to the country’s goal of increasing
-                            the share of EVs to 50% of total vehicles on the UAE’s roads by 2050..</p>
-                        <a href="#" class="text-primary text-end d-block">View More >></a>
+                        <h4 class="fw-bold text-primary">August 29, 2024</h4>
+                        <h3 class="text-black ttl-40 fw-bold">No children 'forgotten on buses': How UAE transport firm is ramping up student safety. Advanced safety systems in Emirates Transport buses to prevent students from forgetting</h3>
+                        <p>As the new academic year kicks off, Emirates Transport – the UAE’s leading provider of school transport services – has doubled down on its commitment to student safety with advanced measures and a rigorous training programme for bus drivers and supervisors.</p>
+                        <a href="https://www.khaleejtimes.com/uae/new-tech-training-staff-uae-school-transport-firm-prepares-to-ensure-student-safety" target="_blank" class="text-primary text-end d-block">View More >></a>
                     </div>
                 </div>
             </div>
@@ -38,14 +33,26 @@ include('../includes/header.php');
                 <div class="col-lg-6">
                     <div class="box d-flex my-3">
                         <div class="left">
-                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-1.png">
+                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-4.png">
                         </div>
                         <div class="right">
-                            <h6>Thu 29 Aug 2024 | News</h6>
-                            <h5 class="fw-bold">No children 'forgotten on buses': How UAE transport firm is ramping up
-                                student safety
+                            <h6>August 25, 2024 | News</h6>
+                            <h5 class="fw-bold">UAE schools brace for Monday traffic as police plan to send out extra
+                                patrol units
                             </h5>
-                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                            <a href="https://www.thenationalnews.com/news/uae/2024/08/25/uae-schools-brace-for-monday-traffic-as-police-plan-to-send-out-extra-patrol-units/" target="_blank" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box d-flex my-3">
+                        <div class="left">
+                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/maxresdefault.jpg">
+                        </div>
+                        <div class="right">
+                            <h6>June 20, 2024 | News</h6>
+                            <h5 class="fw-bold">CIO Leadership Live Middle East with Jarrod Brown, IT Director, Emirates Transport</h5>
+                            <a href="https://www.cio.com/video/2188796/cio-leadership-live-middle-east-with-jarrod-brown-it-director-emirates-transport.html" target="_blank" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
                         </div>
                     </div>
                 </div>
@@ -55,10 +62,9 @@ include('../includes/header.php');
                             <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-2.png">
                         </div>
                         <div class="right">
-                            <h6>Jul 13, 2024 | News</h6>
-                            <h5 class="fw-bold">UAE's Ministry of Energy and Infrastructure, Emirates Transport to
-                                support green mobility</h5>
-                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                            <h6>July 13, 2024 | News</h6>
+                            <h5 class="fw-bold">100 new EV charging stations to be installed in UAE this year </h5>
+                            <a href="https://gulfnews.com/uae/transport/100-new-ev-charging-stations-to-be-installed-in-uae-this-year-1.103493848" target="_blank" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
                         </div>
                     </div>
                 </div>
@@ -68,84 +74,26 @@ include('../includes/header.php');
                             <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-3.png">
                         </div>
                         <div class="right">
-                            <h6>April 26, 2024 | News</h6>
-                            <h5 class="fw-bold">Ministry of Energy and Infrastructure, Emirates Transport to support
-                                green mobility
+                            <h6>Jul 12, 2024 | News</h6>
+                            <h5 class="fw-bold">Ministry of Energy and Infrastructure, Emirates Transport to support green mobility 
                             </h5>
-                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                            <a href="https://www.wam.ae/article/140g6lq-ministry-energy-and-infrastructure-emirates" target="_blank" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="box d-flex my-3">
                         <div class="left">
-                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-4.png">
+                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/media-left.png">
                         </div>
                         <div class="right">
-                            <h6>August 25, 2024 | News</h6>
-                            <h5 class="fw-bold">UAE schools brace for Monday traffic as police plan to send out extra
-                                patrol units
-                            </h5>
-                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
+                            <h6>Jul 12, 2024 | News</h6>
+                            <h5 class="fw-bold">UAE expands EV charging network through Emirates Transport partnership, targeting 50 percent EV adoption by 2050 </h5>
+                            <a href="https://economymiddleeast.com/news/uae-expands-ev-charging-network-emirates-transport-partnership/" target="_blank" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="box d-flex my-3">
-                        <div class="left">
-                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-3.png">
-                        </div>
-                        <div class="right">
-                            <h6>Thu 29 Aug 2024 | News</h6>
-                            <h5 class="fw-bold">Ministry of Energy and Infrastructure, Emirates Transport to support
-                                green mobility
-                            </h5>
-                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="box d-flex my-3">
-                        <div class="left">
-                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-4.png">
-                        </div>
-                        <div class="right">
-                            <h6>Jul 13, 2024 | News</h6>
-                            <h5 class="fw-bold">UAE schools brace for Monday traffic as police plan to send out extra
-                                patrol units</h5>
-                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="box d-flex my-3">
-                        <div class="left">
-                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-3.png">
-                        </div>
-                        <div class="right">
-                            <h6>April 26, 2024 | News</h6>
-                            <h5 class="fw-bold">Ministry of Energy and Infrastructure, Emirates Transport to support
-                                green mobility
-                            </h5>
-                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="box d-flex my-3">
-                        <div class="left">
-                            <img class="w-100 h-100" src="<?php echo $path; ?>assets/images/news-4.png">
-                        </div>
-                        <div class="right">
-                            <h6>August 25, 2024 | News</h6>
-                            <h5 class="fw-bold">UAE schools brace for Monday traffic as police plan to send out extra
-                                patrol units
-                            </h5>
-                            <a href="<?php echo $path; ?>media-details/" class="py-2 px-3 mt-3 text-end d-block">View More >></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 pt-5 text-center">
+                <!-- <div class="col-lg-12 pt-5 text-center">
                     <nav aria-label="Page navigation example">
                         <ul class="pagination d-inline-flex text-center">
                             <li class="page-item"><a class="page-link" href="#"><<</a></li>
@@ -155,7 +103,7 @@ include('../includes/header.php');
                             <li class="page-item"><a class="page-link" href="#">>></a></li>
                         </ul>
                     </nav>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

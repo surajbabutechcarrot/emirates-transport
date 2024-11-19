@@ -1,8 +1,16 @@
-<?php 
+<?php
 $page_title = "Contact";
 include('../includes/header.php');
 ?>
+
+
+
+   
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 <main class="inner-page">
+
     <!-- Banner start -->
     <section class="inner-banner contact pt-0 d-flex align-items-center">
         <div class="container-fluid">
@@ -19,50 +27,63 @@ include('../includes/header.php');
                 <div class="col-lg-12 text-center">
                     <h2 class="fw-bold text-center text-uppercase ttl-60 text-primary">Want to know more? </h2>
                 </div>
-                
 
-                <form action="./" method="post">
-                <div class="box-bg row">
-                    <div class="col-lg-6 col-6">
-                        <div class="mb-3 mt-5">
-                            <input name="first_name" type="text" class="form-control" id="exampleFormControlInput1"
-                                placeholder="First Name*" required>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="mb-3 mt-5">
-                            <input name="last_name" type="text" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Last Name*" required>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="mb-3 mt-5">
-                            <input name="email" type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Your Email*" required>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="mb-3 mt-5">
-                            <input name="subject" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject" required>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-12">
-                        <div class="mb-3 mt-5">
-                            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="4"
-                                placeholder="Your Message" required></textarea>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-12 text-center">
-                        <div class="mb-3 mt-5">
-                            <input type="submit" name="submit" class="btn btn-primary py-3 px-4 mt-3" value="Submit">
-                        </div>
-                    </div>
-                </div>
+
+                <form method="POST" id="ET_contactform" action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8E000000HtV9">
+                    <input type=hidden name="oid" value="00D8E000000HtV9">
+                    <input type=hidden name="retURL" value="http://">
+
+                    <!--  ----------------------------------------------------------------------  -->
+                    <!--  NOTE: These fields are optional debugging elements. Please uncomment    
+                        these lines if you wish to test in debug mode.                          -->
+                    <!-- <input type="hidden" name="debug" value=1>                              
+                      <input type="hidden" name="debugEmail" value="asif.tayyab@et.ae">        -->
+                    <!--  ----------------------------------------------------------------------  -->
+
+                    <label for="first_name">First Name</label><input id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+                    <label for="last_name">Last Name</label><input id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+                    <label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+                    Subject:<input id="00N8E00000EbxDx" maxlength="100" name="00N8E00000EbxDx" size="20" type="text" /><br>
+
+                    <label for="description">Description</label><textarea name="description"></textarea><br>
+
+                    <label style="display:none;" for="lead_source">Lead Source</label><input type="hidden" id="lead_source" maxlength="40" name="lead_source" size="20" type="text" value="Website" /><br>
+
+                    <label style="display:none;" type="hidden" for="recordType">Lead Record Type</label><input type="hidden" id="recordType" maxlength="40" name="recordType" size="20" type="text" value="012UE000000WOYf" /><br>
+
+                    <label style="display:none;" type="hidden" for="OwnerId">Lead Owner</label><input type="hidden" id="OwnerId" maxlength="40" name="OwnerId" size="20" type="text" value="00G8E000007ZrgTUAS" /><br>
+                    <div class="g-recaptcha" data-sitekey="6LcZ1mIqAAAAALy42eoo-C7YCO6w5NtQgxXX1YoU"></div><br>
+
+                    <input type="submit" name="submit">
+
                 </form>
-                <?php 
-                $lang = "en";
-                include_once('phpmail.php'); 
+                <?php
+                if(isset($_POST['submit'])) {
+                    $recaptchaResponse = $_POST['g-recaptcha-response'];
+                    $secretKey = '6LcZ1mIqAAAAAB7x0p26JW95FuZ1yr9-DSyixgrB';
+                    $remoteIp = $_SERVER['REMOTE_ADDR'];
+
+                    // Verify reCAPTCHA response
+                    $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$secretKey}&response={$recaptchaResponse}&remoteip={$remoteIp}");
+                    $responseKeys = json_decode($response, true);
+
+                    if (intval($responseKeys["success"]) !== 1) {
+                        // reCAPTCHA validation failed
+                        echo "Please complete the reCAPTCHA.";
+                    } else {
+                        // Process form submission here
+
+                        if (isset($_GET['lead']) && $_GET['lead'] == "success") {
+                            echo '<div class="alert alert-success alert-dismissible fade show" role="alert">We have received your query. We will get back to you ASAP.<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>';
+                        }
+                    }
+                }
                 ?>
+
+
 
                 <div class="box-bg row">
                     <div class="col-lg-4 col-6 pt-5 d-flex align-items-center">
@@ -150,9 +171,9 @@ include('../includes/header.php');
             </div>
     </section>
 </main>
-<?php include('../includes/footer.php');?>
+<?php include('../includes/footer.php'); ?>
 <!-- pagescript here... -->
-<script></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <!-- End pagescript here... -->
 </body>
 

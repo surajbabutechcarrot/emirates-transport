@@ -1,5 +1,5 @@
 <?php 
-$page_title = "مشاريع جديدة";
+$page_title = "المشاريع الجديدة";
 include('../../includes/header-ar.php');
 ?>
 <link rel="stylesheet" href="../../assets/css/new-ventures.css" media="all">
@@ -8,7 +8,7 @@ include('../../includes/header-ar.php');
     <section class="inner-banner contact pt-0 d-flex align-items-center">
         <div class="container-fluid">
             <div class="banner-content text-center text-uppercase">
-                <h1 class="fw-bold text-white">مشاريع جديدة</h1>
+                <h1 class="fw-bold text-white">المشاريع الجديدة</h1>
                 <img class="bg" src="../../assets/images/ev-banner.png" alt="New ventures">
             </div>
         </div>
@@ -20,8 +20,7 @@ include('../../includes/header-ar.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 m-auto text-center">
-                    <h2 class="fw-bold text-center text-uppercase ttl-40 text-black">من خلال الابتكار والشراكات الاستراتيجية، نقدم حلول النقل والإيجار المستدامة صفر
-                    الانبعاثات، مام يعزز النمو طويل الأمد لشركة الإمارات للنقل في قطاع التنقل.</h2>
+                    <h2 class="fw-bold text-center ttl-40 text-black">نبتكر حلول نقل مستدامة وخالية من الانبعاثات من خلال الشراكات الاستراتيجية والابتكار، الأمر الذي من شأنه أن يدفع النمو طويل الأجل لمواصلات الإمارات في المشهد المتطور لصناعة النقل.</h2>
                 </div>
             </div>
     </section>
@@ -29,7 +28,7 @@ include('../../includes/header-ar.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 m-auto text-center mb-5">
-                    <h2 class="fw-bold text-center text-uppercase ttl-lg">نحن ملتزمون بالاستدامة!</h2>
+                <h2 class="fw-bold text-center text-uppercase ttl-lg">مـلـتـزمـون بــالاســتــدامــة!</h2>
                 </div>
                 <div class="box-bg row">
                     <div class="col-lg-6 pe-md-0 pe-lg-5 d-flex align-items-center">
@@ -42,15 +41,15 @@ include('../../includes/header-ar.php');
                     <article class="col-lg-6 pt-md-5 pt-lg-0 pt-5 d-flex align-items-center">
                         <div class="text">
                             <h3 class="ttl-sm fw-bold py-0 text-uppercase">مركبات الطاقة الجديدة</h3>
-                            <p>.عرض التزامنا بالابتكار والاستدامة</p>
+                            <p>تؤكد التزامنا بالابتكار والاستدامة.</p>
                             <div class="row mt-4">
                                 <div class="col-lg-6">
                                     <h3 class="fw-bold text-gray ttl-lg text-black"">190+</h3>
-                                    <p>مركبات كهربائية</p>
+                                    <p>مركبة كهربائية منها</p>
                                 </div>
                                 <div class="col-lg-6">
                                     <h3 class="fw-bold text-gray ttl-lg text-black"">40+</h3>
-                                    <p>التي تتضمن دراجات كهربائية متطورة</p>
+                                    <p>دراجة كهربائية متطورة</p>
                                 </div>
                             </div>
                         </div>
@@ -67,14 +66,7 @@ include('../../includes/header-ar.php');
                 <article class="col-lg-5 pt-md-5 pt-lg-0 pt-5 d-flex align-items-center pe-xl-5">
                     <div class="text">
                         <h2 class="ttl-30 fw-bold py-3 text-uppercase">شحن المركبات الكهربائية</h2>
-                        <p>كجزء من رؤيتنا للاستدامة، نقوم بطرح حلول
-شحن المركبات الكهربائية على الشبكة
-وخارجها. بالشراكة مع اتصالات ووزارة الطاقة
-والبنية التحتية، سنقوم بتركيب أربع محطات
-شحن متقدمة في المواقع الرئيسية لشركة
-الإمارات للنقل في ديب وأبوظبي بحلول
-نهاية العام، وذلك لموظفينا وضيوفنا
-.والجمهور</p>
+                        <p>كجزء من رؤيتنا للاستدامة، نقوم بطرح حلول شحن المركبات الكهربائية على الشبكة وخارجها. بالشراكة مع اتصالات ووزارة الطاقة والبنية التحتية، سنقوم بتركيب أربع محطات شحن متقدمة في المواقع الرئيسية لشركة مواصلات الإمارات في دبي وأبوظبي بحلول نهاية العام، وذلك لموظفينا وضيوفنا والجمهور.</p>
                     </div>
                 </article>
                 <div class="col-lg-6 pe-md-0 pe-lg-5 d-flex align-items-center">
@@ -93,7 +85,7 @@ include('../../includes/header-ar.php');
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="ttl-40 fw-bold py-3 text-uppercase">ابدأ رحلتك الآن</h2>
+                    <h2 class="ttl-40 fw-bold py-3 text-uppercase">ابــــــدأ رحـــلـــتـــك الآن</h2>
                     <a href="../../contact/ar/" class="btn btn-outline-primary py-2 px-5 mt-2">تواصل معنا</a>
                 </div>
             </div>

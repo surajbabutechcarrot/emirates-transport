@@ -1,0 +1,60 @@
+.footer{
+    background: $light-bg;
+    padding: 40px 0;
+    position: relative;
+    min-height: size(100);
+    @include max(991.98){
+        text-align: center;
+    }
+    hr{
+        border-top:1px solid #b8b9be;
+    }
+    .logo{
+        max-width: size(230);
+        margin: 0 auto;
+    }
+    ul{
+        margin: 0 0 0 auto;
+        text-align: right;
+        list-style: none;
+        padding: 0;
+        justify-content: flex-end;
+        @include max(991.98){
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+        }
+        li {
+            margin: 0 10px;
+        
+            &:last-child {
+                margin-right: 0;
+            }
+        
+            svg {
+                width: 25px; // Assuming size(25) means 25px
+                height: 25px; // Assuming size(25) means 25px
+                transition: all 1s;
+        
+                path {
+                    fill: #325294;
+                }
+        
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+        
+    }
+    p{
+        font-size: size(18);
+        @include max(1199.98){
+            font-size: size(16);
+        }
+        a{
+            color: inherit;
+            text-decoration: underline;
+        }
+    }
+}
